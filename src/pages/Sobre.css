@@ -1,0 +1,72 @@
+/* Fundo e layout futurista */
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Estilo do header com botões alinhados no canto superior direito */
+  .header {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #9c27b0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilo do botão de alternância de idioma */
+  .language-toggle {
+    background-color: #333;
+    color: #9c27b0;
+    border: 1px solid #9c27b0;
+  }
+  
+  .language-toggle:hover {
+    background-color: #9c27b0;
+    color: #fff;
+  }
+  
+  /* Container principal */
+  .sobre-container {
+    background-color: rgba(40, 40, 60, 0.9);
+    border: 1px solid #9c27b0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 150px auto;
+    text-align: left;
+  }
+  
+  /* Título */
+  .sobre-container h2 {
+    color: #9c27b0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Parágrafos */
+  .sobre-container p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
