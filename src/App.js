@@ -5,9 +5,8 @@ import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Projetos from './pages/Projetos';
 import Contato from './pages/Contato';
-//Importar a página de projeto individual
-import ProjetoDetalhes from './pages/ProjetoDetalhes';
-
+import CatsCafeteria from './pages/Projetos/CatsCafeteria';
+import NCUSite from './pages/Projetos/ncu-site';
 
 function App() {
   return (
@@ -18,7 +17,8 @@ function App() {
         <Route path="/projetos" element={<Projetos />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/projetos" element={<Projetos />} />
-        <Route path="/projeto/:id" element={<ProjetoDetalhes />} />
+        <Route path="/projetos/cats-cafeteria" element={<CatsCafeteria />} />
+        <Route path="/projetos/ncu-site" element={<NCUSite />} />
       </Routes>
     </Router>
   );
