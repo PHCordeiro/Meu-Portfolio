@@ -12,7 +12,7 @@ const projects = [
         en: "My first game released on Steam is a visual novel that addresses complex life issues, integrating mysteries and drama. The game also stands out for its charming pixel art, creating a delightful visual experience."
       },
       technologies: { pt: ["Python", "Desenvolvimento de jogos", "Pixel Art"], en: ["Python", "Game Development", "Pixel Art"] },
-      image: "/Cats.png",
+      image: "/Cats/Cats.png",
     },
     {
       id: 2,
