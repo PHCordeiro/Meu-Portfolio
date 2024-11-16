@@ -15,14 +15,11 @@ function Contato() {
     <div className="contato-container">
       <header className="header">
         <div className="button-container">
-          <Link to="/home">
+          <Link to="/">
             <button>{language === 'pt' ? 'Início' : 'Home'}</button>
           </Link>
           <Link to="/sobre">
             <button>{language === 'pt' ? 'Sobre Mim' : 'About Me'}</button>
-          </Link>
-          <Link to="/projetos">
-            <button>{language === 'pt' ? 'Projetos' : 'Projects'}</button>
           </Link>
           <button onClick={toggleLanguage} className="language-toggle">
             {language === 'pt' ? 'EN' : 'PT'}

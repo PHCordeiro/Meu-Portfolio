@@ -17,9 +17,6 @@ function Sobre() {
           <Link to="/">
             <button>{language === 'pt' ? 'Início' : 'Home'}</button>
           </Link>
-          <Link to="/projetos">
-            <button>{language === 'pt' ? 'Projetos' : 'Projects'}</button>
-          </Link>
           <Link to="/contato">
             <button>{language === 'pt' ? 'Contato' : 'Contact'}</button>
           </Link>

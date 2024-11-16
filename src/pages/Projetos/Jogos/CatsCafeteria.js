@@ -1,5 +1,5 @@
 import React from 'react';
-import './ncu-site.css';
+import './CatsCafeteria.css';
 
 function CatsCafeteria() {
     return (
@@ -29,9 +29,6 @@ function CatsCafeteria() {
                 </section>
             </main>
 
-            <footer>
-                <p><a href="/projetos">Voltar para a página de Projetos</a></p>
-            </footer>
         </div>
     );
 }

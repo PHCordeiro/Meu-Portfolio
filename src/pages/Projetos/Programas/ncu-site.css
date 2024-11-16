@@ -1,0 +1,112 @@
+/* Estilo geral */
+body {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #9c27b0;
+}
+
+header h1 {
+  color: #9c27b0;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* Estilo do conteúdo principal */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilo para as seções de descrição, tecnologias e imagem do projeto */
+section {
+  background-color: rgba(40, 40, 60, 0.9);
+  border: 1px solid #9c27b0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section h2 {
+  color: #9c27b0;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+section p {
+  line-height: 1.6;
+}
+
+/* Estilo da imagem do projeto */
+.project-image {
+  background-color: rgba(40, 40, 60, 0.9);
+  border: 1px solid #9c27b0;
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px;
+  width: 100%; /* Ocupa toda a largura disponível */
+  box-sizing: border-box; /* Inclui bordas e preenchimentos no cálculo do tamanho */
+  text-align: center;
+}
+
+/* Estilo da imagem dentro do contêiner */
+.project-image img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+  height: auto; /* Mantém as proporções */
+  border-radius: 10px; /* Cantos arredondados */
+  border: 2px solid #9c27b0; /* Borda da imagem */
+  display: block; /* Remove possíveis margens automáticas */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+
+/* Estilo para o rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #9c27b0;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #9c27b0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 2em;
+  }
+
+  section {
+      padding: 15px;
+  }
+
+  section h2 {
+      font-size: 1.5em;
+  }
+
+  footer {
+      padding: 15px;
+  }
+}
