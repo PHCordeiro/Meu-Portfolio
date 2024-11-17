@@ -149,3 +149,25 @@ main {
 .modal-content:hover {
   cursor: zoom-out;
 }
+
+.back-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.back-button {
+  background-color: #9c27b0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #9c27b0;
+}

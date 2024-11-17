@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Jogos.css";
 
-function CatsCafeteria() {
+function MudMan() {
     const [language, setLanguage] = useState("pt");
 
     const toggleLanguage = () => {
@@ -10,14 +10,14 @@ function CatsCafeteria() {
     };
 
     const images = [
-        { src: "/Cats/Cats.png", alt: { pt: "Imagem 1 do projeto Cat's Cafeteria", en: "Image 1 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats2.jpg", alt: { pt: "Imagem 2 do projeto Cat's Cafeteria", en: "Image 2 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats3.jpg", alt: { pt: "Imagem 3 do projeto Cat's Cafeteria", en: "Image 3 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats4.jpg", alt: { pt: "Imagem 4 do projeto Cat's Cafeteria", en: "Image 4 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats5.jpg", alt: { pt: "Imagem 5 do projeto Cat's Cafeteria", en: "Image 5 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats6.jpg", alt: { pt: "Imagem 6 do projeto Cat's Cafeteria", en: "Image 6 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats7.jpg", alt: { pt: "Imagem 7 do projeto Cat's Cafeteria", en: "Image 7 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats8.jpg", alt: { pt: "Imagem 8 do projeto Cat's Cafeteria", en: "Image 8 of the Cat's Cafeteria project" } },
+        { src: "/MudMan/MudMan1.png", alt: { pt: "Imagem 1 do projeto MudMan", en: "Image 1 of the MudMan project" } },
+        { src: "/MudMan/MudMan2.png", alt: { pt: "Imagem 2 do projeto MudMan", en: "Image 2 of the MudMan project" } },
+        { src: "/MudMan/MudMan3.png", alt: { pt: "Imagem 3 do projeto MudMan", en: "Image 3 of the MudMan project" } },
+        { src: "/MudMan/MudMan4.png", alt: { pt: "Imagem 4 do projeto MudMan", en: "Image 4 of the MudMan project" } },
+        { src: "/MudMan/MudMan5.png", alt: { pt: "Imagem 5 do projeto MudMan", en: "Image 5 of the MudMan project" } },
+        { src: "/MudMan/MudMan6.jpg", alt: { pt: "Imagem 6 do projeto MudMan", en: "Image 6 of the MudMan project" } },
+        { src: "/MudMan/MudMan7.jpg", alt: { pt: "Imagem 7 do projeto MudMan", en: "Image 7 of the MudMan project" } },
+        { src: "/MudMan/MudMan8.jpg", alt: { pt: "Imagem 8 do projeto MudMan", en: "Image 8 of the MudMan project" } },
     ];
 
     const [selectedImage, setSelectedImage] = useState(null);
@@ -56,26 +56,20 @@ function CatsCafeteria() {
                     <h2>{language === "pt" ? "Descrição do Projeto" : "Project Description"}</h2>
                     <p>
                         {language === "pt"
-                            ? "Meu primeiro jogo lançado na Steam é um visual novel que aborda questões complexas da vida, integrando mistérios e dramas. O jogo também se destaca por sua charmosa arte em pixel, criando uma experiência visual encantadora. Desenvolvi esse jogo ao longo de 3 anos, começando como um hobby com o desejo de criar o meu próprio 'mundo'. Com isso, me apaixonei pelo desenvolvimento da história, dos personagens e pela programação, encontrando um refúgio ao escrever minha própria e única história."
-                            : "My first game released on Steam is a visual novel that addresses complex life issues, integrating mysteries and drama. The game also stands out for its charming pixel art, creating a delightful visual experience. I developed this game over 3 years, starting as a hobby with the desire to create my own 'world'. Through this, I fell in love with the development of the story, the characters, and programming, finding a refuge in writing my own unique story."
+                            ? "Recentemente, participei da Nona NoNe Jam, uma competição de desenvolvimento de jogos, cujo desafio foi criar um jogo com o tema 'Mistura de Gêneros'. Em resposta a esse desafio, desenvolvi o jogo *Mud Man*, que combina elementos de terror, plataforma e puzzle, transformando-se em um shooter no final. O jogo ficou na 45ª posição entre 74 participantes. Apesar de não ter alcançado o top 30, fiquei extremamente satisfeito com a experiência, especialmente pelas críticas construtivas que recebi e que pretendo aplicar em futuros projetos. Além disso, esta foi minha primeira participação oficial em uma Game Jam, o que tornou a experiência ainda mais gratificante."
+                            : "Recently, I participated in the Ninth NoNe Jam, a game development competition, where the challenge was to create a game based on the theme 'Genre Mix'. In response to this challenge, I developed the game Mud Man, which combines elements of horror, platforming, and puzzle, eventually transforming into a shooter at the end. The game ranked 45th out of 74 participants. Although I didn't reach the top 30, I was extremely satisfied with the experience, especially due to the constructive feedback I received, which I intend to apply in future projects. Moreover, this was my first official participation in a Game Jam, making the experience even more rewarding."
                         }
                         <br />
                         <br />
                         {language === "pt"
-                            ? "Aproveite a atmosfera de uma agradável cafeteria, ouça os problemas e confissões das pessoas, conecte-se com elas. Deixe de lado os dias monótonos e embarque em uma aventura envolvendo o multiverso, demônios e mutantes. Não era para ser apenas uma cafeteria?"
-                            : "Enjoy the atmosphere of a nice cafeteria, hear people's problems, confessions, connect to them. Set aside monotonous days and embark on an adventure involving the multiverse, demons, and mutants. Wasn't it supposed to be just a cafeteria?"
-                        }
-                        <br />
-                        <br />
-                        {language === "pt"
-                            ? "Gêneros: Romance Visual, 2D, Indie, Suspense"
-                            : "Genres: Visual Novel, 2D, Indie, Suspense"
+                            ? "Gêneros: Terror, Plataforma, Puzzle, Shooter, Indie"
+                            : "Genres: Horror, Platformer, Puzzle, Shooter, Indie"
                         }
                         <br />
                         <br />
                         <p>
                             <span>
-                                Link: <a href="https://store.steampowered.com/app/2790530/Cats_Cafeteria/" target="_blank" rel="noopener noreferrer">https://store.steampowered.com/app/2790530/Cats_Cafeteria/</a>
+                                Link: <a href="https://mechanical-brain.itch.io/mud-man" target="_blank" rel="noopener noreferrer">https://mechanical-brain.itch.io/mud-man</a>
                             </span>
                         </p>
                     </p>
@@ -84,10 +78,11 @@ function CatsCafeteria() {
                 <section className="project-technologies">
                     <h2>{language === "pt" ? "Habilidades" : "Skills"}</h2>
                     <ul>
-                        <li>Python</li>
+                        <li>GameMaker</li>
                         <li>{language === "pt" ? "Desenvolvimento de jogos" : "Game Development"}</li>
                         <li>Pixel Art</li>
-                        <li>Atom</li>
+                        <li>{language === "pt" ? "Mecânica de jogos" : "Game Mechanics"}</li>
+                        <li>{language === "pt" ? "Jogabilidade" : "Gameplay"}</li>
                     </ul>
                 </section>
 
@@ -129,4 +124,4 @@ function CatsCafeteria() {
     );
 }
 
-export default CatsCafeteria;
+export default MudMan;
