@@ -6,16 +6,6 @@ import './Projetos.css';
 const projects = [
     {
       id: 1,
-      name: { pt: "NCU Site", en: "NCU Site" },
-      description: { 
-        pt: "O site da Nerd Cinematic Universe foi um projeto feito totalmente por mim com o intuito de divulgar os conteúdos da loja, além de melhorar minhas habilidades no desenvolvimento de projetos.", 
-        en: "The Nerd Cinematic Universe website was a project entirely developed by me with the goal of promoting the store's content, as well as improving my skills in project development."
-      },
-      technologies: { pt: ["WordPress", "Desenvolvimento Web"], en: ["WordPress", "Web Development"] },
-      image: "/NCU.jpg",
-    },
-    {
-      id: 2,
       name: { pt: "Green Magic - Sistema", en: "Green Magic - System" },
       description: { 
         pt: "Para aprendizado, desenvolvi um sistema para uma loja ficticia, esse sistema permite o cadastro de clientes, produtos e vendas, além de trazer um pequeno dashboard no começo.", 
@@ -25,24 +15,34 @@ const projects = [
       image: "/Green Magic.jpg",    
     },
     {
-      id: 3,
+      id: 2,
       name: { pt: "Cadastro com API", en: "API Registration" },
       description: { 
         pt: "Desenvolvi uma API capaz de fazer os métodos de PUT, POST, GET e DELETE em uma base de dados de clientes. Também desenvolvi o front para tornar a aplicação funcional sem precisar utilizar apenas o Postman.", 
         en: "I developed an API capable of performing the PUT, POST, GET, and DELETE methods on a customer database. I also created the frontend to make the application functional without relying solely on Postman."
       },
       technologies: { pt: ["REACT", "MongoDB", "Prisma", "Node.js"], en: ["REACT", "MongoDB", "Prisma", "Node.js"] },
-      image: "/api.jpg",      
+      image: "/ApiRegistration/api.jpg",      
     },
     {
-      id: 4,
+      id: 3,
       name: { pt: "Login Simples", en: "Simple Login" },
       description: { 
         pt: "Desenvolvi um sistema básico de cadastro e login em PHP para aprimorar minhas habilidades. O projeto inclui funcionalidades de criação, edição, exclusão e busca de usuários.", 
         en: "I developed a basic registration and login system in PHP to improve my skills. The project includes user creation, editing, deletion, and search functionalities."
       },
       technologies: { pt: ["MySQL", "PHP", "HTML", "Desenvolvimento WEB"], en: ["MySQL", "PHP", "HTML", "Web Development"] },
-      image: "/login.jpg",    
+      image: "/SimpleLogin/login.jpg",    
+    },
+    {
+      id: 4,
+      name: { pt: "NCU Site", en: "NCU Site" },
+      description: { 
+        pt: "O site da Nerd Cinematic Universe foi um projeto feito totalmente por mim com o intuito de divulgar os conteúdos da loja, além de melhorar minhas habilidades no desenvolvimento de projetos.", 
+        en: "The Nerd Cinematic Universe website was a project entirely developed by me with the goal of promoting the store's content, as well as improving my skills in project development."
+      },
+      technologies: { pt: ["WordPress", "Desenvolvimento Web"], en: ["WordPress", "Web Development"] },
+      image: "/NCU.jpg",
     },
   ];
   

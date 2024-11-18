@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Programas.css";
 
-function NCUSite() {
+function ApiRegistration() {
     const [language, setLanguage] = useState("pt");
 
     const toggleLanguage = () => {
@@ -10,14 +10,7 @@ function NCUSite() {
     };
 
     const images = [
-        { src: "/NCU/NCU1.jpg", alt: { pt: "Imagem 1 do projeto NCU", en: "Image 1 of the NCU project" } },
-        { src: "/NCU/NCU2.jpg", alt: { pt: "Imagem 2 do projeto NCU", en: "Image 2 of the NCU project" } },
-        { src: "/NCU/NCU3.jpg", alt: { pt: "Imagem 3 do projeto NCU", en: "Image 3 of the NCU project" } },
-        { src: "/NCU/NCU4.jpg", alt: { pt: "Imagem 4 do projeto NCU", en: "Image 4 of the NCU project" } },
-        { src: "/NCU/NCU5.jpg", alt: { pt: "Imagem 5 do projeto NCU", en: "Image 5 of the NCU project" } },
-        { src: "/NCU/NCU6.jpg", alt: { pt: "Imagem 6 do projeto NCU", en: "Image 6 of the NCU project" } },
-        { src: "/NCU/NCU7.jpg", alt: { pt: "Imagem 7 do projeto NCU", en: "Image 7 of the NCU project" } },
-        { src: "/NCU/NCU8.jpg", alt: { pt: "Imagem 8 do projeto NCU", en: "Image 8 of the NCU project" } },
+        { src: "/ApiRegistration/ApiRegistration1.jpg", alt: { pt: "Imagem 1 do projeto ApiRegistration", en: "Image 1 of the ApiRegistration project" } },
     ];
 
     const [selectedImage, setSelectedImage] = useState(null);
@@ -56,17 +49,24 @@ function NCUSite() {
                     <h2>{language === "pt" ? "Descrição do Projeto" : "Project Description"}</h2>
                     <p>
                         {language === "pt"
-                            ? "Desenvolvi meu primeiro site para a loja que administro junto com minha namorada! O objetivo é apresentar nossos produtos de forma clara e atrativa, proporcionando a melhor experiência possível para nossos clientes."
-                            : "I developed my first website for the store I manage with my girlfriend! The goal is to showcase our products clearly and attractively, providing the best possible experience for our customers."
+                            ? "Desenvolvi uma API capaz de fazer os métodos de PUT, POST, GET e DELETE em uma base de dados de clientes. Também desenvolvi o front para tornar a aplicação funcional sem precisar utilizar apenas o Postman."
+                            : "I developed an API capable of performing the PUT, POST, GET, and DELETE methods on a customer database. I also created the frontend to make the application functional without relying solely on Postman."
                         }
+                    </p>
+                    <p>
+                        <span>
+                            Link: <a href="https://github.com/PHCordeiro/Cadastro-Usuarios-API" target="_blank" rel="noopener noreferrer">https://github.com/PHCordeiro/Cadastro-Usuarios-API</a>
+                        </span>
                     </p>
                 </section>
 
                 <section className="project-technologies">
                     <h2>{language === "pt" ? "Habilidades" : "Skills"}</h2>
                     <ul>
-                        <li>WordPress</li>
-                        <li>{language === "pt" ? "Desenvolvimento Web" : "Web Development"}</li>
+                        <li>REACT</li>
+                        <li>MongoDB</li>
+                        <li>Prisma</li>
+                        <li>Node.js</li>
                     </ul>
                 </section>
 
@@ -108,4 +108,4 @@ function NCUSite() {
     );
 }
 
-export default NCUSite;
+export default ApiRegistration;

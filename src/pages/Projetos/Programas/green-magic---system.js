@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Programas.css";
 
-function NCUSite() {
+function GreenMagic() {
     const [language, setLanguage] = useState("pt");
 
     const toggleLanguage = () => {
@@ -10,14 +10,14 @@ function NCUSite() {
     };
 
     const images = [
-        { src: "/NCU/NCU1.jpg", alt: { pt: "Imagem 1 do projeto NCU", en: "Image 1 of the NCU project" } },
-        { src: "/NCU/NCU2.jpg", alt: { pt: "Imagem 2 do projeto NCU", en: "Image 2 of the NCU project" } },
-        { src: "/NCU/NCU3.jpg", alt: { pt: "Imagem 3 do projeto NCU", en: "Image 3 of the NCU project" } },
-        { src: "/NCU/NCU4.jpg", alt: { pt: "Imagem 4 do projeto NCU", en: "Image 4 of the NCU project" } },
-        { src: "/NCU/NCU5.jpg", alt: { pt: "Imagem 5 do projeto NCU", en: "Image 5 of the NCU project" } },
-        { src: "/NCU/NCU6.jpg", alt: { pt: "Imagem 6 do projeto NCU", en: "Image 6 of the NCU project" } },
-        { src: "/NCU/NCU7.jpg", alt: { pt: "Imagem 7 do projeto NCU", en: "Image 7 of the NCU project" } },
-        { src: "/NCU/NCU8.jpg", alt: { pt: "Imagem 8 do projeto NCU", en: "Image 8 of the NCU project" } },
+        { src: "/GreenMagic/GreenMagic1.jpg", alt: { pt: "Imagem 1 do projeto GreenMagic", en: "Image 1 of the GreenMagic project" } },
+        { src: "/GreenMagic/GreenMagic2.jpg", alt: { pt: "Imagem 2 do projeto GreenMagic", en: "Image 2 of the GreenMagic project" } },
+        { src: "/GreenMagic/GreenMagic3.jpg", alt: { pt: "Imagem 3 do projeto GreenMagic", en: "Image 3 of the GreenMagic project" } },
+        { src: "/GreenMagic/GreenMagic4.jpg", alt: { pt: "Imagem 4 do projeto GreenMagic", en: "Image 4 of the GreenMagic project" } },
+        { src: "/GreenMagic/GreenMagic5.jpg", alt: { pt: "Imagem 5 do projeto GreenMagic", en: "Image 5 of the GreenMagic project" } },
+        { src: "/GreenMagic/GreenMagic6.jpg", alt: { pt: "Imagem 6 do projeto GreenMagic", en: "Image 6 of the GreenMagic project" } },
+        { src: "/GreenMagic/GreenMagic7.jpg", alt: { pt: "Imagem 7 do projeto GreenMagic", en: "Image 7 of the GreenMagic project" } },
+        { src: "/GreenMagic/GreenMagic8.jpg", alt: { pt: "Imagem 8 do projeto GreenMagic", en: "Image 8 of the GreenMagic project" } },
     ];
 
     const [selectedImage, setSelectedImage] = useState(null);
@@ -56,8 +56,8 @@ function NCUSite() {
                     <h2>{language === "pt" ? "Descrição do Projeto" : "Project Description"}</h2>
                     <p>
                         {language === "pt"
-                            ? "Desenvolvi meu primeiro site para a loja que administro junto com minha namorada! O objetivo é apresentar nossos produtos de forma clara e atrativa, proporcionando a melhor experiência possível para nossos clientes."
-                            : "I developed my first website for the store I manage with my girlfriend! The goal is to showcase our products clearly and attractively, providing the best possible experience for our customers."
+                            ? "Com o objetivo de aprimorar minhas habilidades em desenvolvimento de sistemas, desenvolvi um projeto utilizando a ferramenta de desenvolvimento rápido de aplicações (RAD) ScriptCase. Neste projeto, criei o sistema para uma loja fictícia, chamada 'Green Magic'. O sistema oferece funcionalidades de login seguro, cadastro de vendas, clientes e produtos, além de consultas em grid para análise do comportamento dos dados. O sistema inclui, ainda, um dashboard inicial, que fornece uma visão abrangente do desempenho do negócio."
+                            : "With the aim of enhancing my skills in system development, I created a project using the rapid application development (RAD) tool ScriptCase. In this project, I developed a system for a fictional store called 'Green Magic'. The system offers features such as secure login, registration of sales, customers, and products, as well as grid-based queries for analyzing data behavior. Additionally, the system includes an initial dashboard that provides a comprehensive overview of business performance."
                         }
                     </p>
                 </section>
@@ -65,8 +65,9 @@ function NCUSite() {
                 <section className="project-technologies">
                     <h2>{language === "pt" ? "Habilidades" : "Skills"}</h2>
                     <ul>
-                        <li>WordPress</li>
-                        <li>{language === "pt" ? "Desenvolvimento Web" : "Web Development"}</li>
+                        <li>ScriptCase</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
                     </ul>
                 </section>
 
@@ -108,4 +109,4 @@ function NCUSite() {
     );
 }
 
-export default NCUSite;
+export default GreenMagic;
