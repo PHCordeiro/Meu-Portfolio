@@ -27,7 +27,7 @@ function Home() {
       </header>
 
       <img
-        src="/eu.jpg"
+        src={`${process.env.PUBLIC_URL}/eu.jpg`}
         alt="Foto de Pedro"
         className="profile-picture"
       />

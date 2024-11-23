@@ -10,8 +10,14 @@ function SimpleLogin() {
     };
 
     const images = [
-        { src: "/SimpleLogin/login.jpg", alt: { pt: "Imagem 1 do projeto login", en: "Image 1 of the login project" } },
-    ];
+        { 
+            src: `${process.env.PUBLIC_URL}/SimpleLogin/login.jpg`, 
+            alt: { 
+                pt: "Imagem 1 do projeto login", 
+                en: "Image 1 of the login project"
+            } 
+        },
+    ];    
 
     const [selectedImage, setSelectedImage] = useState(null);
 

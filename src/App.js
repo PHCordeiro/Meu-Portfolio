@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
@@ -15,7 +14,7 @@ import SimpleLogin from './pages/Projetos/Programas/simple-login';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Meu-Portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<Sobre />} />

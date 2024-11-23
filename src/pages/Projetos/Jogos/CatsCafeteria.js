@@ -10,15 +10,63 @@ function CatsCafeteria() {
     };
 
     const images = [
-        { src: "/Cats/Cats.png", alt: { pt: "Imagem 1 do projeto Cat's Cafeteria", en: "Image 1 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats2.jpg", alt: { pt: "Imagem 2 do projeto Cat's Cafeteria", en: "Image 2 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats3.jpg", alt: { pt: "Imagem 3 do projeto Cat's Cafeteria", en: "Image 3 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats4.jpg", alt: { pt: "Imagem 4 do projeto Cat's Cafeteria", en: "Image 4 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats5.jpg", alt: { pt: "Imagem 5 do projeto Cat's Cafeteria", en: "Image 5 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats6.jpg", alt: { pt: "Imagem 6 do projeto Cat's Cafeteria", en: "Image 6 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats7.jpg", alt: { pt: "Imagem 7 do projeto Cat's Cafeteria", en: "Image 7 of the Cat's Cafeteria project" } },
-        { src: "/Cats/Cats8.jpg", alt: { pt: "Imagem 8 do projeto Cat's Cafeteria", en: "Image 8 of the Cat's Cafeteria project" } },
-    ];
+        { 
+            src: `${process.env.PUBLIC_URL}/Cats/Cats.png`, 
+            alt: { 
+                pt: "Imagem 1 do projeto Cat's Cafeteria", 
+                en: "Image 1 of the Cat's Cafeteria project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/Cats/Cats2.jpg`, 
+            alt: { 
+                pt: "Imagem 2 do projeto Cat's Cafeteria", 
+                en: "Image 2 of the Cat's Cafeteria project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/Cats/Cats3.jpg`, 
+            alt: { 
+                pt: "Imagem 3 do projeto Cat's Cafeteria", 
+                en: "Image 3 of the Cat's Cafeteria project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/Cats/Cats4.jpg`, 
+            alt: { 
+                pt: "Imagem 4 do projeto Cat's Cafeteria", 
+                en: "Image 4 of the Cat's Cafeteria project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/Cats/Cats5.jpg`, 
+            alt: { 
+                pt: "Imagem 5 do projeto Cat's Cafeteria", 
+                en: "Image 5 of the Cat's Cafeteria project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/Cats/Cats6.jpg`, 
+            alt: { 
+                pt: "Imagem 6 do projeto Cat's Cafeteria", 
+                en: "Image 6 of the Cat's Cafeteria project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/Cats/Cats7.jpg`, 
+            alt: { 
+                pt: "Imagem 7 do projeto Cat's Cafeteria", 
+                en: "Image 7 of the Cat's Cafeteria project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/Cats/Cats8.jpg`, 
+            alt: { 
+                pt: "Imagem 8 do projeto Cat's Cafeteria", 
+                en: "Image 8 of the Cat's Cafeteria project" 
+            } 
+        },
+    ];    
 
     const [selectedImage, setSelectedImage] = useState(null);
 

@@ -58,7 +58,7 @@ const projects = [
             key={project.id}
             className="project-card"
           >
-            <img src={project.image} alt={project.name[language]} className="project-image" />
+            <img src={`${process.env.PUBLIC_URL}/${project.image}`} alt={project.name[language]} className="project-image" />
             <h3>{project.name[language]}</h3>
             <p>{project.description[language]}</p>
             <p><strong>{language === 'pt' ? 'Tecnologias:' : 'Technologies:'}</strong> {project.technologies[language].join(", ")}</p>

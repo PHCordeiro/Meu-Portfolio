@@ -10,8 +10,14 @@ function ApiRegistration() {
     };
 
     const images = [
-        { src: "/ApiRegistration/ApiRegistration1.jpg", alt: { pt: "Imagem 1 do projeto ApiRegistration", en: "Image 1 of the ApiRegistration project" } },
-    ];
+        { 
+            src: `${process.env.PUBLIC_URL}/ApiRegistration/ApiRegistration1.jpg`, 
+            alt: { 
+                pt: "Imagem 1 do projeto ApiRegistration", 
+                en: "Image 1 of the ApiRegistration project" 
+            } 
+        },
+    ];    
 
     const [selectedImage, setSelectedImage] = useState(null);
 

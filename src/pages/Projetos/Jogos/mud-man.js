@@ -10,15 +10,63 @@ function MudMan() {
     };
 
     const images = [
-        { src: "/MudMan/MudMan1.png", alt: { pt: "Imagem 1 do projeto MudMan", en: "Image 1 of the MudMan project" } },
-        { src: "/MudMan/MudMan2.png", alt: { pt: "Imagem 2 do projeto MudMan", en: "Image 2 of the MudMan project" } },
-        { src: "/MudMan/MudMan3.png", alt: { pt: "Imagem 3 do projeto MudMan", en: "Image 3 of the MudMan project" } },
-        { src: "/MudMan/MudMan4.png", alt: { pt: "Imagem 4 do projeto MudMan", en: "Image 4 of the MudMan project" } },
-        { src: "/MudMan/MudMan5.png", alt: { pt: "Imagem 5 do projeto MudMan", en: "Image 5 of the MudMan project" } },
-        { src: "/MudMan/MudMan6.jpg", alt: { pt: "Imagem 6 do projeto MudMan", en: "Image 6 of the MudMan project" } },
-        { src: "/MudMan/MudMan7.jpg", alt: { pt: "Imagem 7 do projeto MudMan", en: "Image 7 of the MudMan project" } },
-        { src: "/MudMan/MudMan8.jpg", alt: { pt: "Imagem 8 do projeto MudMan", en: "Image 8 of the MudMan project" } },
-    ];
+        { 
+            src: `${process.env.PUBLIC_URL}/MudMan/MudMan1.png`, 
+            alt: { 
+                pt: "Imagem 1 do projeto MudMan", 
+                en: "Image 1 of the MudMan project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/MudMan/MudMan2.png`, 
+            alt: { 
+                pt: "Imagem 2 do projeto MudMan", 
+                en: "Image 2 of the MudMan project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/MudMan/MudMan3.png`, 
+            alt: { 
+                pt: "Imagem 3 do projeto MudMan", 
+                en: "Image 3 of the MudMan project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/MudMan/MudMan4.png`, 
+            alt: { 
+                pt: "Imagem 4 do projeto MudMan", 
+                en: "Image 4 of the MudMan project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/MudMan/MudMan5.png`, 
+            alt: { 
+                pt: "Imagem 5 do projeto MudMan", 
+                en: "Image 5 of the MudMan project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/MudMan/MudMan6.jpg`, 
+            alt: { 
+                pt: "Imagem 6 do projeto MudMan", 
+                en: "Image 6 of the MudMan project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/MudMan/MudMan7.jpg`, 
+            alt: { 
+                pt: "Imagem 7 do projeto MudMan", 
+                en: "Image 7 of the MudMan project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/MudMan/MudMan8.jpg`, 
+            alt: { 
+                pt: "Imagem 8 do projeto MudMan", 
+                en: "Image 8 of the MudMan project" 
+            } 
+        },
+    ];    
 
     const [selectedImage, setSelectedImage] = useState(null);
 

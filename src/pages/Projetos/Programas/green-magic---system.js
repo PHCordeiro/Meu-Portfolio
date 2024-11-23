@@ -10,15 +10,63 @@ function GreenMagic() {
     };
 
     const images = [
-        { src: "/GreenMagic/GreenMagic1.jpg", alt: { pt: "Imagem 1 do projeto GreenMagic", en: "Image 1 of the GreenMagic project" } },
-        { src: "/GreenMagic/GreenMagic2.jpg", alt: { pt: "Imagem 2 do projeto GreenMagic", en: "Image 2 of the GreenMagic project" } },
-        { src: "/GreenMagic/GreenMagic3.jpg", alt: { pt: "Imagem 3 do projeto GreenMagic", en: "Image 3 of the GreenMagic project" } },
-        { src: "/GreenMagic/GreenMagic4.jpg", alt: { pt: "Imagem 4 do projeto GreenMagic", en: "Image 4 of the GreenMagic project" } },
-        { src: "/GreenMagic/GreenMagic5.jpg", alt: { pt: "Imagem 5 do projeto GreenMagic", en: "Image 5 of the GreenMagic project" } },
-        { src: "/GreenMagic/GreenMagic6.jpg", alt: { pt: "Imagem 6 do projeto GreenMagic", en: "Image 6 of the GreenMagic project" } },
-        { src: "/GreenMagic/GreenMagic7.jpg", alt: { pt: "Imagem 7 do projeto GreenMagic", en: "Image 7 of the GreenMagic project" } },
-        { src: "/GreenMagic/GreenMagic8.jpg", alt: { pt: "Imagem 8 do projeto GreenMagic", en: "Image 8 of the GreenMagic project" } },
-    ];
+        { 
+            src: `${process.env.PUBLIC_URL}/GreenMagic/GreenMagic1.jpg`, 
+            alt: { 
+                pt: "Imagem 1 do projeto GreenMagic", 
+                en: "Image 1 of the GreenMagic project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/GreenMagic/GreenMagic2.jpg`, 
+            alt: { 
+                pt: "Imagem 2 do projeto GreenMagic", 
+                en: "Image 2 of the GreenMagic project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/GreenMagic/GreenMagic3.jpg`, 
+            alt: { 
+                pt: "Imagem 3 do projeto GreenMagic", 
+                en: "Image 3 of the GreenMagic project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/GreenMagic/GreenMagic4.jpg`, 
+            alt: { 
+                pt: "Imagem 4 do projeto GreenMagic", 
+                en: "Image 4 of the GreenMagic project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/GreenMagic/GreenMagic5.jpg`, 
+            alt: { 
+                pt: "Imagem 5 do projeto GreenMagic", 
+                en: "Image 5 of the GreenMagic project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/GreenMagic/GreenMagic6.jpg`, 
+            alt: { 
+                pt: "Imagem 6 do projeto GreenMagic", 
+                en: "Image 6 of the GreenMagic project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/GreenMagic/GreenMagic7.jpg`, 
+            alt: { 
+                pt: "Imagem 7 do projeto GreenMagic", 
+                en: "Image 7 of the GreenMagic project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/GreenMagic/GreenMagic8.jpg`, 
+            alt: { 
+                pt: "Imagem 8 do projeto GreenMagic", 
+                en: "Image 8 of the GreenMagic project" 
+            } 
+        },
+    ];    
 
     const [selectedImage, setSelectedImage] = useState(null);
 

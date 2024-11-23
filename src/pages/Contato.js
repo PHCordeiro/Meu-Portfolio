@@ -28,7 +28,7 @@ function Contato() {
       </header>
 
       {/* Logo */}
-      <img src="/logo.png" alt="Logo" className="logo" />
+      <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="logo" />
 
       <h2>{language === 'pt' ? 'Mechanical Brain' : 'Mechanical Brain'}</h2>
       <p>{language === 'pt' ? 'Entre em contato comigo através das plataformas abaixo:' : 'Get in touch with me through the platforms below:'}</p>

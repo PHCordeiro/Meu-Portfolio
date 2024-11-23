@@ -10,15 +10,63 @@ function NCUSite() {
     };
 
     const images = [
-        { src: "/NCU/NCU1.jpg", alt: { pt: "Imagem 1 do projeto NCU", en: "Image 1 of the NCU project" } },
-        { src: "/NCU/NCU2.jpg", alt: { pt: "Imagem 2 do projeto NCU", en: "Image 2 of the NCU project" } },
-        { src: "/NCU/NCU3.jpg", alt: { pt: "Imagem 3 do projeto NCU", en: "Image 3 of the NCU project" } },
-        { src: "/NCU/NCU4.jpg", alt: { pt: "Imagem 4 do projeto NCU", en: "Image 4 of the NCU project" } },
-        { src: "/NCU/NCU5.jpg", alt: { pt: "Imagem 5 do projeto NCU", en: "Image 5 of the NCU project" } },
-        { src: "/NCU/NCU6.jpg", alt: { pt: "Imagem 6 do projeto NCU", en: "Image 6 of the NCU project" } },
-        { src: "/NCU/NCU7.jpg", alt: { pt: "Imagem 7 do projeto NCU", en: "Image 7 of the NCU project" } },
-        { src: "/NCU/NCU8.jpg", alt: { pt: "Imagem 8 do projeto NCU", en: "Image 8 of the NCU project" } },
-    ];
+        { 
+            src: `${process.env.PUBLIC_URL}/NCU/NCU1.jpg`, 
+            alt: { 
+                pt: "Imagem 1 do projeto NCU", 
+                en: "Image 1 of the NCU project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/NCU/NCU2.jpg`, 
+            alt: { 
+                pt: "Imagem 2 do projeto NCU", 
+                en: "Image 2 of the NCU project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/NCU/NCU3.jpg`, 
+            alt: { 
+                pt: "Imagem 3 do projeto NCU", 
+                en: "Image 3 of the NCU project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/NCU/NCU4.jpg`, 
+            alt: { 
+                pt: "Imagem 4 do projeto NCU", 
+                en: "Image 4 of the NCU project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/NCU/NCU5.jpg`, 
+            alt: { 
+                pt: "Imagem 5 do projeto NCU", 
+                en: "Image 5 of the NCU project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/NCU/NCU6.jpg`, 
+            alt: { 
+                pt: "Imagem 6 do projeto NCU", 
+                en: "Image 6 of the NCU project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/NCU/NCU7.jpg`, 
+            alt: { 
+                pt: "Imagem 7 do projeto NCU", 
+                en: "Image 7 of the NCU project" 
+            } 
+        },
+        { 
+            src: `${process.env.PUBLIC_URL}/NCU/NCU8.jpg`, 
+            alt: { 
+                pt: "Imagem 8 do projeto NCU", 
+                en: "Image 8 of the NCU project" 
+            } 
+        },
+    ];    
 
     const [selectedImage, setSelectedImage] = useState(null);
 
