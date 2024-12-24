@@ -1,5 +1,7 @@
 body {
-  background-color: #1a1a2e;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a2e; 
   color: #e0e0e0;
   font-family: 'Roboto', sans-serif;
 }
@@ -12,6 +14,7 @@ body {
   min-height: 100vh;
   text-align: center;
   position: relative;
+  padding-top: 40px; /* Espaço para evitar sobreposição do header */
 }
 
 .profile-picture {
@@ -40,19 +43,26 @@ body {
   margin: 5px 0;
 }
 
-/* Header com espaçamento ajustado */
 .header {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ocupa toda a largura do topo */
   display: flex;
-  gap: 15px;
+  justify-content: flex-end; /* Alinha os botões à direita */
+  align-items: center;
+  background-color: #1a1919; /* Cinza mais escuro */
+  padding: 10px 20px; /* Mantém espaçamento interno consistente */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+  z-index: 1000; /* Garante que fique acima de outros elementos */
+  box-sizing: border-box; /* Inclui padding no tamanho total do elemento */
 }
 
-/* Contêiner dos botões */
 .button-container {
   display: flex;
-  gap: 15px; 
+  gap: 15px; /* Espaçamento uniforme entre botões */
+  margin-right: 10px; /* Adiciona um pequeno deslocamento sem ultrapassar a tela */
+  flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
 }
 
 button {
@@ -64,6 +74,7 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: transform 0.2s;
+  max-width: 100%; /* Garante que o botão não ultrapasse os limites */
 }
 
 button:hover {
@@ -75,6 +86,7 @@ button:hover {
   background-color: #333;
   color: #9c27b0;
   border: 1px solid #9c27b0;
+  padding: 10px 15px; /* Ajuste o padding para melhor alinhamento */
 }
 
 .language-toggle:hover {
@@ -82,20 +94,13 @@ button:hover {
   color: #fff;
 }
 
-.projects-section {
-  display: flex;
-  flex-direction: row; 
-  justify-content: center; 
-  gap: 20px; 
-  margin-top: 30px; 
-}
-
+.projects-section,
 .carreira {
   display: flex;
-  flex-direction: row; 
-  justify-content: center; 
+  flex-wrap: wrap; 
+  justify-content: center;
   gap: 20px; 
-  margin-top: 30px; 
+  margin-top: 10px;
 }
 
 .central-button {
