@@ -52,6 +52,14 @@ function Home() {
           </button>
         </Link>
       </div>
+
+      <div className="carreira">
+      <Link to="/Experiencias/Experiencias" className="central-button">
+          <button>
+            {language === 'pt' ? 'Experiências' : 'Experiences'}
+          </button>
+        </Link>
+      </div>
     </div>
   );
 }

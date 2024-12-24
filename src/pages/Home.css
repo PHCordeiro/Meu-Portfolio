@@ -90,6 +90,14 @@ button:hover {
   margin-top: 30px; 
 }
 
+.carreira {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  gap: 20px; 
+  margin-top: 30px; 
+}
+
 .central-button {
   display: block;
 }

@@ -11,6 +11,7 @@ import NCUSite from './pages/Projetos/Programas/ncu-site';
 import GreenMagic from './pages/Projetos/Programas/green-magic---system';
 import ApiRegistration from './pages/Projetos/Programas/api-registration';
 import SimpleLogin from './pages/Projetos/Programas/simple-login';
+import Experiencias from './pages/Experiencias/Experiencias';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Projetos/Programas/green-magic---system" element={<GreenMagic />} />
         <Route path="/Projetos/Programas/api-registration" element={<ApiRegistration />} />
         <Route path="/Projetos/Programas/simple-login" element={<SimpleLogin />} />
+        <Route path="/Experiencias/Experiencias" element={<Experiencias />} />
       </Routes>
     </Router>
   );
