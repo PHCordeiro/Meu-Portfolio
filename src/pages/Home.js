@@ -12,7 +12,7 @@ function Home() {
 
   return (
     <>
-      {/* Header */}
+      {/* Header */}  
       <header className="header">
         <div className="button-container">
           <Link to="/sobre">

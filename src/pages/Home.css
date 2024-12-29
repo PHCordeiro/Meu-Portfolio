@@ -1,9 +1,18 @@
-body {
+.header {
   margin: 0;
-  padding: 0;
-  background-color: #1a1a2e; 
-  color: #e0e0e0;
-  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; 
+  background-color: #1a1919;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px; /* Somente padding lateral */
+  z-index: 1000;
+  box-sizing: border-box;
 }
 
 .home-container {
@@ -11,10 +20,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 90vh;
   text-align: center;
   position: relative;
-  padding-top: 40px; /* Espaço para evitar sobreposição do header */
+  padding-top: 60px; /* Igual à altura do header */
 }
 
 .profile-picture {
@@ -43,26 +52,11 @@ body {
   margin: 5px 0;
 }
 
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%; /* Ocupa toda a largura do topo */
-  display: flex;
-  justify-content: flex-end; /* Alinha os botões à direita */
-  align-items: center;
-  background-color: #1a1919; /* Cinza mais escuro */
-  padding: 10px 20px; /* Mantém espaçamento interno consistente */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
-  z-index: 1000; /* Garante que fique acima de outros elementos */
-  box-sizing: border-box; /* Inclui padding no tamanho total do elemento */
-}
-
 .button-container {
   display: flex;
+  justify-content: flex-end; /* Certifica-se que os botões estejam alinhados no final */
   gap: 15px; /* Espaçamento uniforme entre botões */
-  margin-right: 10px; /* Adiciona um pequeno deslocamento sem ultrapassar a tela */
-  flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
+  margin-left: auto; /* Empurra os botões para o lado direito */
 }
 
 button {
