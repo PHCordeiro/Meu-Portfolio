@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px; 
+  height: 60px;
   background-color: #1a1919;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -91,9 +91,9 @@ button:hover {
 .projects-section,
 .carreira {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; 
+  gap: 20px;
   margin-top: 10px;
 }
 
@@ -115,4 +115,86 @@ button:hover {
 
 .central-button button:hover {
   transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .header {
+    height: 50px !important;
+    padding: 0 15px !important;
+  }
+
+  .home-container {
+    padding-top: 50px !important; 
+  }
+
+  .profile-picture {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .character-info {
+    padding: 15px !important;
+    max-width: 90% !important; 
+  }
+
+  button {
+    padding: 8px 20px !important;
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 50px !important;
+    justify-content: center !important; 
+  }
+
+  .profile-picture {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .character-info {
+    padding: 10px !important;
+  }
+
+  .button-container {
+    align-items: center !important;
+    gap: 10px !important;
+    margin-left: auto !important;
+  }
+
+  button {
+    padding: 8px 20px !important;
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 50px !important;
+    font-size: 14px !important;
+  }
+
+  .profile-picture {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .character-info {
+    padding: 8px !important;
+    max-width: 90% !important; 
+  }
+
+  button {
+    font-size: 15px !important;
+    padding: 8px 12px !important;
+  }
+
+  .projects-section,
+  .carreira {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
 }
