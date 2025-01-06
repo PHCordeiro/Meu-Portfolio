@@ -83,3 +83,78 @@ body {
     color: #fff;
   }
   
+  @media (max-width: 1024px) {
+    .logo {
+        width: 130px;
+        height: 130px;
+        margin: 40px auto;
+    }
+
+    .contato-container {
+        max-width: 80%;
+        padding: 18px;
+        margin: 80px auto;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 10px 18px;
+    }
+
+    .contact-icons a {
+        font-size: 17px;
+    }
+
+    .contact-icons .icon {
+        font-size: 22px;
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .logo {
+      width: 100px;
+      height: 100px;
+  }
+
+  .contato-container {
+      padding: 15px;
+  }
+
+  button {
+      font-size: 14px;
+      padding: 8px 15px;
+  }
+
+  .contact-icons a {
+      font-size: 16px;
+  }
+
+  .contact-icons .icon {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+      width: 80px;
+      height: 80px;
+  }
+
+  .contato-container {
+      margin: 150px auto;
+      padding: 10px;
+  }
+
+  .contact-icons {
+      gap: 10px;
+  }
+
+  .contact-icons a {
+      font-size: 14px;
+  }
+
+  .contact-icons .icon {
+      font-size: 18px;
+  }
+}
