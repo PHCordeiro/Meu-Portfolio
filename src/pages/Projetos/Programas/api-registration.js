@@ -61,7 +61,7 @@ function ApiRegistration() {
                     </p>
                     <p>
                         <span>
-                            Link: <a href="https://github.com/PHCordeiro/Cadastro-Usuarios-API" target="_blank" rel="noopener noreferrer">https://github.com/PHCordeiro/Cadastro-Usuarios-API</a>
+                            Link: <a href="https://github.com/PHCordeiro/Cadastro-Usuarios-API" target="_blank" rel="noopener noreferrer">Cadastro Usuarios API</a>
                         </span>
                     </p>
                 </section>

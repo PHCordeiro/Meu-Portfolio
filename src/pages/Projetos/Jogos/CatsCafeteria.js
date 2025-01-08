@@ -123,7 +123,7 @@ function CatsCafeteria() {
                         <br />
                         <p>
                             <span>
-                                Link: <a href="https://store.steampowered.com/app/2790530/Cats_Cafeteria/" target="_blank" rel="noopener noreferrer">https://store.steampowered.com/app/2790530/Cats_Cafeteria/</a>
+                                Link: <a href="https://store.steampowered.com/app/2790530/Cats_Cafeteria/" target="_blank" rel="noopener noreferrer">Cat's Cafeteria</a>
                             </span>
                         </p>
                     </p>

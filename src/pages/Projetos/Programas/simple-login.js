@@ -61,7 +61,7 @@ function SimpleLogin() {
                     </p>
                     <p>
                         <span>
-                            Link: <a href="https://github.com/PHCordeiro/Sistema-Login" target="_blank" rel="noopener noreferrer">https://github.com/PHCordeiro/Sistema-Login</a>
+                            Link: <a href="https://github.com/PHCordeiro/Sistema-Login" target="_blank" rel="noopener noreferrer">Sistema Login</a>
                         </span>
                     </p>
                 </section>

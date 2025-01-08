@@ -117,7 +117,7 @@ function MudMan() {
                         <br />
                         <p>
                             <span>
-                                Link: <a href="https://mechanical-brain.itch.io/mud-man" target="_blank" rel="noopener noreferrer">https://mechanical-brain.itch.io/mud-man</a>
+                                Link: <a href="https://mechanical-brain.itch.io/mud-man" target="_blank" rel="noopener noreferrer">Mud Man</a>
                             </span>
                         </p>
                     </p>
