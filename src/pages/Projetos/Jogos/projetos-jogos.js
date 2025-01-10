@@ -24,6 +24,16 @@ const projects = [
       technologies: { pt: ["Game Maker", "Desenvolvimento de jogos", "Pixel Art"], en: ["Game Maker", "Game Development", "Pixel Art"] },
       image: "/Mud.jpg",    
     },
+    {
+      id: 3,
+      name: { pt: "Pong Clone", en: "Pong Clone" },
+      description: { 
+        pt: "Este é um clone simples do jogo Pong, criado como um projeto de aprendizado no Unity, sendo o meu primeiro jogo feito com essa ferramenta apenas para prática.", 
+        en: "This is a simple clone of the Pong game created as a learning project in Unity, my first game made with this tool just for practice. "
+      },
+      technologies: { pt: ["Unity", "Desenvolvimento de jogos"], en: ["Unity", "Game Development"] },
+      image: "/PongClone/Pong.png",    
+    },
   ];
   
   function ProjetosJogos() {

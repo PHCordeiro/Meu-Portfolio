@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Programas.css";
+import "./Jogos.css";
 
-function NCUSite() {
+function PongClone() {
     const [language, setLanguage] = useState("pt");
 
     const toggleLanguage = () => {
@@ -11,59 +11,24 @@ function NCUSite() {
 
     const images = [
         { 
-            src: `${process.env.PUBLIC_URL}/NCU/NCU1.jpg`, 
+            src: `${process.env.PUBLIC_URL}/PongClone/Pong.png`, 
             alt: { 
-                pt: "Imagem 1 do projeto NCU", 
-                en: "Image 1 of the NCU project" 
+                pt: "Imagem 1 do projeto PongClone", 
+                en: "Image 1 of the PongClone project" 
             } 
         },
         { 
-            src: `${process.env.PUBLIC_URL}/NCU/NCU2.jpg`, 
+            src: `${process.env.PUBLIC_URL}/PongClone/Pong2.png`, 
             alt: { 
-                pt: "Imagem 2 do projeto NCU", 
-                en: "Image 2 of the NCU project" 
+                pt: "Imagem 2 do projeto PongClone", 
+                en: "Image 2 of the PongClone project" 
             } 
         },
         { 
-            src: `${process.env.PUBLIC_URL}/NCU/NCU3.jpg`, 
+            src: `${process.env.PUBLIC_URL}/PongClone/Pong3.png`, 
             alt: { 
-                pt: "Imagem 3 do projeto NCU", 
-                en: "Image 3 of the NCU project" 
-            } 
-        },
-        { 
-            src: `${process.env.PUBLIC_URL}/NCU/NCU4.jpg`, 
-            alt: { 
-                pt: "Imagem 4 do projeto NCU", 
-                en: "Image 4 of the NCU project" 
-            } 
-        },
-        { 
-            src: `${process.env.PUBLIC_URL}/NCU/NCU5.jpg`, 
-            alt: { 
-                pt: "Imagem 5 do projeto NCU", 
-                en: "Image 5 of the NCU project" 
-            } 
-        },
-        { 
-            src: `${process.env.PUBLIC_URL}/NCU/NCU6.jpg`, 
-            alt: { 
-                pt: "Imagem 6 do projeto NCU", 
-                en: "Image 6 of the NCU project" 
-            } 
-        },
-        { 
-            src: `${process.env.PUBLIC_URL}/NCU/NCU7.jpg`, 
-            alt: { 
-                pt: "Imagem 7 do projeto NCU", 
-                en: "Image 7 of the NCU project" 
-            } 
-        },
-        { 
-            src: `${process.env.PUBLIC_URL}/NCU/NCU8.jpg`, 
-            alt: { 
-                pt: "Imagem 8 do projeto NCU", 
-                en: "Image 8 of the NCU project" 
+                pt: "Imagem 3 do projeto PongClone", 
+                en: "Image 3 of the PongClone project" 
             } 
         },
     ];    
@@ -104,19 +69,45 @@ function NCUSite() {
                     <h2>{language === "pt" ? "Descrição do Projeto" : "Project Description"}</h2>
                     <p>
                         {language === "pt"
-                            ? "Trabalhei em um projeto significativo no qual eu e minha parceira desenvolvemos um website para nossa loja nerd. Utilizando o WordPress, fui responsável pelo desenvolvimento de cada página, garantindo sua funcionalidade e estética. Este projeto não apenas aprimorou minhas habilidades técnicas, mas também demonstrou minha capacidade de colaboração e gestão de projetos. Estou entusiasmado em continuar explorando novas oportunidades para aplicar e expandir meu conjunto de habilidades."
-                            : "I worked on a significant project where my partner and I developed a website for our nerd store. Using WordPress, I was responsible for creating each page, ensuring both functionality and aesthetics. This project not only enhanced my technical skills but also demonstrated my ability to collaborate and manage projects. I am excited to continue exploring new opportunities to apply and expand my skill set."
+                            ? "Este é um clone simples do jogo Pong, criado como um projeto de aprendizado no Unity, sendo o meu primeiro jogo feito com essa ferramenta apenas para prática."
+                            : "This is a simple clone of the Pong game created as a learning project in Unity, my first game made with this tool just for practice. "
                         }
+                        <br />
+                        <br />
+                        {language === "pt"
+                            ? "Para jogar, o jogador pode controlar o Jogador 1 com as teclas W e S, enquanto outra pessoa pode ser o Jogador 2 clicando em uma das teclas de seta, para cima ou para baixo."
+                            : "To play, the player can control Player 1 with W and S, while another person can be Player 2 by clicking on one of the arrow keys, either up or down. "
+                        }
+                        <br />
+                        <br />
+                        {language === "pt"
+                            ? "Clicar na tecla de seta alterna o Jogador 2 para o modo de Inteligência Artificial, e pressionar Enter o retorna para o modo de IA."
+                            : "Clicking on the arrow key switches Player 2 from Artificial Intelligence mode, and pressing Enter brings them back into AI mode."
+                        }
+                        <br />
+                        <br />
+                        {language === "pt"
+                            ? "Gêneros: Simulação, Pong"
+                            : "Genres: Simulation, Pong"
+                        }
+                        <br />
+                        <br />
+                        <p>
+                            <span>
+                                Link: <a href="https://mechanical-brain.itch.io/pong-clone" target="_blank" rel="noopener noreferrer">Pong Clone</a>
+                            </span>
+                        </p>
                     </p>
                 </section>
 
                 <section className="project-technologies">
                     <h2>{language === "pt" ? "Habilidades" : "Skills"}</h2>
                     <ul>
-                        <li>WordPress</li>
-                        <li>{language === "pt" ? "Desenvolvimento Web" : "Web Development"}</li>
-                        <li>{language === "pt" ? "Gestão de projetos" : "Project management"}</li>
-                        <li>{language === "pt" ? "Hospedagem de sites" : "Website hosting"}</li>
+                        <li>GameMaker</li>
+                        <li>{language === "pt" ? "Desenvolvimento de jogos" : "Game Development"}</li>
+                        <li>Pixel Art</li>
+                        <li>{language === "pt" ? "Mecânica de jogos" : "Game Mechanics"}</li>
+                        <li>{language === "pt" ? "Jogabilidade" : "Gameplay"}</li>
                     </ul>
                 </section>
 
@@ -147,7 +138,7 @@ function NCUSite() {
 
             {/* Botão no canto inferior */}
             <div className="back-button-container">
-                <Link to="/projetos-programas">
+                <Link to="/projetos-jogos">
                     <button className="back-button">
                         {language === "pt" ? "Voltar" : "Back"}
                     </button>
@@ -158,4 +149,4 @@ function NCUSite() {
     );
 }
 
-export default NCUSite;
+export default PongClone;

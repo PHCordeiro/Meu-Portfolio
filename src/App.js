@@ -5,6 +5,7 @@ import Sobre from './pages/Sobre';
 import Contato from './pages/Contato';
 import CatsCafeteria from './pages/Projetos/Jogos/CatsCafeteria';
 import MudMan from './pages/Projetos/Jogos/mud-man';
+import PongClone from './pages/Projetos/Jogos/pong-clone';
 import ProjetosJogos from './pages/Projetos/Jogos/projetos-jogos';
 import ProjetosProgramas from './pages/Projetos/Programas/projetos-programas';
 import NCUSite from './pages/Projetos/Programas/ncu-site';
@@ -23,6 +24,7 @@ function App() {
         <Route path="/projetos-jogos" element={<ProjetosJogos />} />
         <Route path="/Projetos/Jogos/cats-cafeteria" element={<CatsCafeteria />} />
         <Route path="/Projetos/Jogos/mud-man" element={<MudMan />} />
+        <Route path="/Projetos/Jogos/pong-clone" element={<PongClone />} />
         <Route path="/projetos-programas" element={<ProjetosProgramas />} />
         <Route path="/Projetos/Programas/ncu-site" element={<NCUSite />} />
         <Route path="/Projetos/Programas/green-magic---system" element={<GreenMagic />} />
