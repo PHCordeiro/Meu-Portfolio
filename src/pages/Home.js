@@ -10,9 +10,17 @@ function Home() {
     setLanguage((prevLang) => (prevLang === 'pt' ? 'en' : 'pt'));
   };
 
+  const birthDate = new Date('2004-08-02'); 
+  const today = new Date();
+
+  const ageInMilliseconds = today - birthDate;
+  const ageInYears = Math.floor(ageInMilliseconds / (1000 * 60 * 60 * 24 * 365.25));
+  const daysInYear = (1000 * 60 * 60 * 24 * 365.25);
+  const remainingDays = Math.floor((ageInMilliseconds % daysInYear) / (1000 * 60 * 60 * 24));
+
   return (
     <>
-      {/* Header */}  
+      {/* Header */}
       <header className="header">
         <div className="button-container">
           <Link to="/sobre">
@@ -49,7 +57,10 @@ function Home() {
             {language === 'pt' ? 'Um profissional entusiasmado em busca de conhecimento e crescimento contínuo.' : 'An enthusiastic professional seeking knowledge and continuous growth.'}
           </p>
           <p>
-            <strong>{language === 'pt' ? 'Idade:' : 'Age:'}</strong> 20 {language === 'pt' ? 'anos' : 'years old'}
+            <strong>{language === 'pt' ? 'Idade:' : 'Age:'}</strong>{' '}
+            {language === 'pt'
+              ? `${ageInYears} anos e ${remainingDays} dias`
+              : `${ageInYears} years and ${remainingDays} days`}
           </p>
         </div>
 
