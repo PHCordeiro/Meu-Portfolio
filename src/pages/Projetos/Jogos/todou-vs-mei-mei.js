@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Jogos.css";
 
-function PongClone() {
+function TodouVSMeiMei() {
     const [language, setLanguage] = useState("pt");
 
     const toggleLanguage = () => {
@@ -11,24 +11,24 @@ function PongClone() {
 
     const images = [
         { 
-            src: `${process.env.PUBLIC_URL}/PongClone/Pong.png`, 
+            src: `${process.env.PUBLIC_URL}/TodouMeiMei/TodouMeiMei1.png`, 
             alt: { 
-                pt: "Imagem 1 do projeto PongClone", 
-                en: "Image 1 of the PongClone project" 
+                pt: "Imagem 1 do projeto TodouMeiMei", 
+                en: "Image 1 of the TodouMeiMei project" 
             } 
         },
         { 
-            src: `${process.env.PUBLIC_URL}/PongClone/Pong2.png`, 
+            src: `${process.env.PUBLIC_URL}/TodouMeiMei/TodouMeiMei2.png`, 
             alt: { 
-                pt: "Imagem 2 do projeto PongClone", 
-                en: "Image 2 of the PongClone project" 
+                pt: "Imagem 2 do projeto TodouMeiMei", 
+                en: "Image 2 of the TodouMeiMei project" 
             } 
         },
         { 
-            src: `${process.env.PUBLIC_URL}/PongClone/Pong3.png`, 
+            src: `${process.env.PUBLIC_URL}/TodouMeiMei/TodouMeiMei3.png`, 
             alt: { 
-                pt: "Imagem 3 do projeto PongClone", 
-                en: "Image 3 of the PongClone project" 
+                pt: "Imagem 3 do projeto TodouMeiMei", 
+                en: "Image 3 of the TodouMeiMei project" 
             } 
         },
     ];    
@@ -69,20 +69,20 @@ function PongClone() {
                     <h2>{language === "pt" ? "Descrição do Projeto" : "Project Description"}</h2>
                     <p>
                         {language === "pt"
-                            ? "Este é um clone simples do jogo Pong, criado como um projeto de aprendizado no Unity, sendo o meu primeiro jogo feito com essa ferramenta apenas para prática."
-                            : "This is a simple clone of the Pong game created as a learning project in Unity, my first game made with this tool just for practice. "
+                            ? "Um jogo inspirado na partida de Pong entre Todou e Mei Mei, apresentada em um episódio do anime Jujutsu Kaisen, foi desenvolvido."
+                            : "A game inspired by the Pong match between Todou and Mei Mei, featured in an episode of the anime Jujutsu Kaisen, has been developed. "
                         }
                         <br />
                         <br />
                         {language === "pt"
-                            ? "Para jogar, o jogador pode controlar o Jogador 1 com as teclas W e S, enquanto outra pessoa pode ser o Jogador 2 clicando em uma das teclas de seta, para cima ou para baixo."
-                            : "To play, the player can control Player 1 with W and S, while another person can be Player 2 by clicking on one of the arrow keys, either up or down. "
+                            ? "Esta criação é uma homenagem à cena em questão, escolhida devido à minha afinidade com o anime e ao prazer que encontro em criar projetos relacionados a ele."
+                            : "This creation is a tribute to the scene in question, chosen due to my affinity for the anime and the enjoyment I derive from creating projects related to it. "
                         }
                         <br />
                         <br />
                         {language === "pt"
-                            ? "Clicar na tecla de seta alterna o Jogador 2 para o modo de Inteligência Artificial, e pressionar Enter o retorna para o modo de IA."
-                            : "Clicking on the arrow key switches Player 2 from Artificial Intelligence mode, and pressing Enter brings them back into AI mode."
+                            ? "Este jogo foi produzido como parte do curso oferecido pela NoNe Class."
+                            : "This game was produced as part of the course offered by NoNe Class."
                         }
                         <br />
                         <br />
@@ -94,7 +94,7 @@ function PongClone() {
                         <br />
                         <p>
                             <span>
-                                Link: <a href="https://mechanical-brain.itch.io/pong-clone" target="_blank" rel="noopener noreferrer">Pong Clone</a>
+                                Link: <a href="https://mechanical-brain.itch.io/todou-vs-mei-mei-pong" target="_blank" rel="noopener noreferrer">Todou VS Mei Mei</a>
                             </span>
                         </p>
                     </p>
@@ -103,7 +103,9 @@ function PongClone() {
                 <section className="project-technologies">
                     <h2>{language === "pt" ? "Habilidades" : "Skills"}</h2>
                     <ul>
+                        <li>GameMaker</li>
                         <li>{language === "pt" ? "Desenvolvimento de jogos" : "Game Development"}</li>
+                        <li>Pixel Art</li>
                         <li>{language === "pt" ? "Mecânica de jogos" : "Game Mechanics"}</li>
                         <li>{language === "pt" ? "Jogabilidade" : "Gameplay"}</li>
                     </ul>
@@ -147,4 +149,4 @@ function PongClone() {
     );
 }
 
-export default PongClone;
+export default TodouVSMeiMei;

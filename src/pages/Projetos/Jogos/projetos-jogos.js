@@ -34,6 +34,16 @@ const projects = [
       technologies: { pt: ["Unity", "Desenvolvimento de jogos"], en: ["Unity", "Game Development"] },
       image: "/PongClone/Pong.png",    
     },
+    {
+      id: 4,
+      name: { pt: "Todou VS Mei Mei", en: "Todou VS Mei Mei" },
+      description: { 
+        pt: "A game inspired by the Pong match between Todou and Mei Mei, featured in an episode of the anime Jujutsu Kaisen, has been developed. ", 
+        en: "Um jogo inspirado na partida de Pong entre Todou e Mei Mei, apresentada em um episódio do anime Jujutsu Kaisen, foi desenvolvido."
+      },
+      technologies: { pt: ["GameMaker", "Desenvolvimento de jogos"], en: ["GameMaker", "Game Development"] },
+      image: "/TodouMeiMei/TodouMeiMei1.png",    
+    },
   ];
   
   function ProjetosJogos() {
