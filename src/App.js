@@ -7,6 +7,8 @@ import CatsCafeteria from './pages/Projetos/Jogos/CatsCafeteria';
 import MudMan from './pages/Projetos/Jogos/mud-man';
 import PongClone from './pages/Projetos/Jogos/pong-clone';
 import TodouVSMeiMei from './pages/Projetos/Jogos/todou-vs-mei-mei';
+import TapGojo from './pages/Projetos/Jogos/tap-gojo';
+import Politics from './pages/Projetos/Jogos/politics---stop-the-assembleia';
 import ProjetosJogos from './pages/Projetos/Jogos/projetos-jogos';
 import ProjetosProgramas from './pages/Projetos/Programas/projetos-programas';
 import NCUSite from './pages/Projetos/Programas/ncu-site';
@@ -27,6 +29,8 @@ function App() {
         <Route path="/Projetos/Jogos/mud-man" element={<MudMan />} />
         <Route path="/Projetos/Jogos/pong-clone" element={<PongClone />} />
         <Route path="/Projetos/Jogos/todou-vs-mei-mei" element={<TodouVSMeiMei />} />
+        <Route path="/Projetos/Jogos/tap-gojo" element={<TapGojo />} />
+        <Route path="/Projetos/Jogos/politics---stop-the-assembleia" element={<Politics />} />
         <Route path="/projetos-programas" element={<ProjetosProgramas />} />
         <Route path="/Projetos/Programas/ncu-site" element={<NCUSite />} />
         <Route path="/Projetos/Programas/green-magic---system" element={<GreenMagic />} />
