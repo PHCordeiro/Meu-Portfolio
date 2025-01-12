@@ -46,16 +46,36 @@ const projects = [
     },
     {
       id: 5,
+      name: { pt: "Jogo dos Pássaros", en: "Bird Game" },
+      description: { 
+        pt: "O Jogo dos Pássaros foi feito para testar as minhas habilidades e gerar mais conhecimento sobre a criação de jogos. Sou muito grato com o NoNe por ter me ensinado tanto e espero que vocês se divirtam!", 
+        en: "The Bird Game was made to test my skills and gain more knowledge about game development. I am very grateful to NoNe for teaching me so much, and I hope you all have fun!"
+      },
+      technologies: { pt: ["GameMaker", "Desenvolvimento de jogos"], en: ["GameMaker", "Game Development"] },
+      image: "/Passaros/Passaros1.png",    
+    },
+    {
+      id: 6,
+      name: { pt: "Flappy Nishimiya", en: "Flappy Nishimiya" },
+      description: { 
+        pt: "Bem, como sou um grande fã de Jujutsu Kaisen, pensei em fazer um jogo sobre o anime, mas não sabia em que personagem ou aspecto me concentrar... Foi então que, ao olhar uma lista de personagens do anime, vi a Nishimiya e me lembrei de que ela voa em sua vassoura! Sabendo que muitas pessoas gostam da personagem, mas que ela não teve muito desenvolvimento, decidi criar um jogo pequeno e bem simples sobre ela.", 
+        en: "Well, as I'm a huge fan of Jujutsu Kaisen, I thought about making a game about the anime, but I didn't know what to focus on... That's when, looking at a list of characters from the anime, I saw Nishimiya and remembered that she flies on her broomstick!! Knowing that many people like the character, but she didn't have much development, I decided to make a small, very simple game about her."
+      },
+      technologies: { pt: ["GameMaker", "Desenvolvimento de jogos"], en: ["GameMaker", "Game Development"] },
+      image: "/Nishimiya/Nishimiya1.png",    
+    },
+    {
+      id: 7,
       name: { pt: "Todou VS Mei Mei", en: "Todou VS Mei Mei" },
       description: { 
         pt: "A game inspired by the Pong match between Todou and Mei Mei, featured in an episode of the anime Jujutsu Kaisen, has been developed. ", 
         en: "Um jogo inspirado na partida de Pong entre Todou e Mei Mei, apresentada em um episódio do anime Jujutsu Kaisen, foi desenvolvido."
       },
-      technologies: { pt: ["GameMaker", "Desenvolvimento de jogos"], en: ["GameMaker", "Game Development"] },
+      technologies: { pt: ["Unity", "Desenvolvimento de jogos"], en: ["Unity", "Game Development"] },
       image: "/TodouMeiMei/TodouMeiMei1.png",    
     },
     {
-      id: 6,
+      id: 8,
       name: { pt: "Pong Clone", en: "Pong Clone" },
       description: { 
         pt: "Este é um clone simples do jogo Pong, criado como um projeto de aprendizado no Unity, sendo o meu primeiro jogo feito com essa ferramenta apenas para prática.", 

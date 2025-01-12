@@ -9,6 +9,8 @@ import PongClone from './pages/Projetos/Jogos/pong-clone';
 import TodouVSMeiMei from './pages/Projetos/Jogos/todou-vs-mei-mei';
 import TapGojo from './pages/Projetos/Jogos/tap-gojo';
 import Politics from './pages/Projetos/Jogos/politics---stop-the-assembleia';
+import Passaros from './pages/Projetos/Jogos/bird-game';
+import Nishimiya from './pages/Projetos/Jogos/flappy-nishimiya';
 import ProjetosJogos from './pages/Projetos/Jogos/projetos-jogos';
 import ProjetosProgramas from './pages/Projetos/Programas/projetos-programas';
 import NCUSite from './pages/Projetos/Programas/ncu-site';
@@ -31,6 +33,8 @@ function App() {
         <Route path="/Projetos/Jogos/todou-vs-mei-mei" element={<TodouVSMeiMei />} />
         <Route path="/Projetos/Jogos/tap-gojo" element={<TapGojo />} />
         <Route path="/Projetos/Jogos/politics---stop-the-assembleia" element={<Politics />} />
+        <Route path="/Projetos/Jogos/bird-game" element={<Passaros />} />
+        <Route path="/Projetos/Jogos/flappy-nishimiya" element={<Nishimiya />} />
         <Route path="/projetos-programas" element={<ProjetosProgramas />} />
         <Route path="/Projetos/Programas/ncu-site" element={<NCUSite />} />
         <Route path="/Projetos/Programas/green-magic---system" element={<GreenMagic />} />
