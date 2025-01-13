@@ -8,10 +8,10 @@ const projects = [
       id: 1,
       name: { pt: "Ferramenta BPSOIS", en: "BPSOIS Tool" },
       description: { 
-        pt: "", 
-        en: ""
+        pt: "O projeto integra a análise de modelos UML (Unified Modeling Language), o desenvolvimento de modelos preditivos para saúde e a otimização de processos organizacionais por meio do Método GQM e da Mineração de Texto. Na análise UML, diagramas de caso de uso foram utilizados para identificar pontos de interoperabilidade entre sistemas e aprimorar a comunicação. Uma ferramenta foi desenvolvida para extrair informações de arquivos XMI, como Atores, Casos de Uso e Associações, organizando esses dados de forma estruturada para facilitar a compreensão e otimização dos processos. Além disso, foi realizado um estudo comparativo de ferramentas de análise de dados para criar um modelo preditivo capaz de identificar novos casos de diabetes, contribuindo para a saúde preventiva e o diagnóstico clínico.", 
+        en: "The project integrates the analysis of UML (Unified Modeling Language) models, the development of predictive models for healthcare, and the optimization of organizational processes through the GQM Method and Text Mining. In the UML analysis, use case diagrams were used to identify interoperability points between systems and enhance communication. A tool was developed to extract information from XMI files, such as Actors, Use Cases, and Associations, organizing this data in a structured way to facilitate understanding and process optimization. Additionally, a comparative study of data analysis tools was conducted to create a predictive model capable of identifying new cases of diabetes, contributing to preventive healthcare and clinical diagnosis."
       },
-      technologies: { pt: ["", ""], en: ["", ""] },
+      technologies: { pt: ["Python", "Django", "Mineração de Dados", "XML", "UML"], en: ["Python", "Django", "Data Mining", "XML", "UML"] },
       image: "/BPSOIS/2.png",    
     },
     {
