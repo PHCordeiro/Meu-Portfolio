@@ -1,0 +1,160 @@
+
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  button {
+    background-color: #9c27b0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+/* Logo circular */
+.logo {
+    display: block;
+    margin: 50px auto;
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%; 
+    border: 3px solid #9c27b0; 
+    object-fit: cover; 
+  }  
+  
+  /* Container principal */
+  .contato-container {
+    background-color: rgba(40, 40, 60, 0.9);
+    border: 1px solid #9c27b0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 120px auto;
+    text-align: center;
+  }
+  
+  /* Título */
+  .contato-container h2 {
+    color: #9c27b0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Parágrafos */
+  .contato-container p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  /* Ícones de contato */
+  .contact-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .contact-icons a {
+    display: flex;
+    align-items: center;
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .contact-icons .icon {
+    font-size: 24px;
+    margin-right: 8px;
+    color: #9c27b0;
+    transition: color 0.3s;
+  }
+  
+  .contact-icons a:hover .icon {
+    color: #fff;
+  }
+  
+  @media (max-width: 1024px) {
+    .logo {
+        width: 130px;
+        height: 130px;
+        margin: 40px auto;
+    }
+
+    .contato-container {
+        max-width: 80%;
+        padding: 18px;
+        margin: 80px auto;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 10px 18px;
+    }
+
+    .contact-icons a {
+        font-size: 17px;
+    }
+
+    .contact-icons .icon {
+        font-size: 22px;
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .logo {
+      width: 100px;
+      height: 100px;
+  }
+
+  .contato-container {
+      padding: 15px;
+  }
+
+  button {
+      font-size: 14px;
+      padding: 8px 15px;
+  }
+
+  .contact-icons a {
+      font-size: 16px;
+  }
+
+  .contact-icons .icon {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+      width: 80px;
+      height: 80px;
+  }
+
+  .contato-container {
+      margin: 150px auto;
+      padding: 10px;
+  }
+
+  .contact-icons {
+      gap: 10px;
+  }
+
+  .contact-icons a {
+      font-size: 14px;
+  }
+
+  .contact-icons .icon {
+      font-size: 18px;
+  }
+}

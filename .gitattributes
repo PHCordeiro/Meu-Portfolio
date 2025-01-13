@@ -1,0 +1,7 @@
+# Forçar arquivos de texto a usar LF
+* text=auto eol=lf
+
+# Para arquivos binários, não alterar
+*.png binary
+*.jpg binary
+*.exe binary
