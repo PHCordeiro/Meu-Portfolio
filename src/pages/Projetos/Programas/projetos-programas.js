@@ -6,6 +6,26 @@ import './Projetos.css';
 const projects = [
     {
       id: 1,
+      name: { pt: "Ferramenta BPSOIS", en: "BPSOIS Tool" },
+      description: { 
+        pt: "", 
+        en: ""
+      },
+      technologies: { pt: ["", ""], en: ["", ""] },
+      image: "/BPSOIS/2.png",    
+    },
+    {
+      id: 2,
+      name: { pt: "Príncipe Dragão Wiki", en: "Dragon Prince Wiki" },
+      description: { 
+        pt: "Desenvolvi este projeto com o objetivo de aprender uma nova tecnologia: Ionic Angular. Embora não seja um projeto muito complexo, ele me proporcionou um aprendizado significativo sobre a tecnologia e suas possíveis aplicações em projetos de maior escala.", 
+        en: "I developed this project with the goal of learning a new technology: Ionic Angular. Although it is not a very complex project, it provided me with significant insights into the technology and its potential applications in larger-scale projects."
+      },
+      technologies: { pt: ["Ionic Angular", "TypeScript"], en: ["Ionic Angular", "TypeScript"] },
+      image: "/DragonPrince/DragonPrince1.jpg",    
+    },
+    {
+      id: 3,
       name: { pt: "Green Magic - Sistema", en: "Green Magic - System" },
       description: { 
         pt: "Para aprendizado, desenvolvi um sistema para uma loja ficticia, esse sistema permite o cadastro de clientes, produtos e vendas, além de trazer um pequeno dashboard no começo.", 
@@ -15,7 +35,7 @@ const projects = [
       image: "/Green Magic.jpg",    
     },
     {
-      id: 2,
+      id: 4,
       name: { pt: "Cadastro com API", en: "API Registration" },
       description: { 
         pt: "Desenvolvi uma API capaz de fazer os métodos de PUT, POST, GET e DELETE em uma base de dados de clientes. Também desenvolvi o front para tornar a aplicação funcional sem precisar utilizar apenas o Postman.", 
@@ -25,7 +45,7 @@ const projects = [
       image: "/ApiRegistration/api.jpg",      
     },
     {
-      id: 3,
+      id: 5,
       name: { pt: "Login Simples", en: "Simple Login" },
       description: { 
         pt: "Desenvolvi um sistema básico de cadastro e login em PHP para aprimorar minhas habilidades. O projeto inclui funcionalidades de criação, edição, exclusão e busca de usuários.", 
@@ -35,7 +55,7 @@ const projects = [
       image: "/SimpleLogin/login.jpg",    
     },
     {
-      id: 4,
+      id: 6,
       name: { pt: "NCU Site", en: "NCU Site" },
       description: { 
         pt: "O site da Nerd Cinematic Universe foi um projeto feito totalmente por mim com o intuito de divulgar os conteúdos da loja, além de melhorar minhas habilidades no desenvolvimento de projetos.", 
