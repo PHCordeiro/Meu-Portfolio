@@ -20,6 +20,7 @@ import SimpleLogin from './pages/Projetos/Programas/simple-login';
 import Experiencias from './pages/Experiencias/Experiencias';
 import DragonPrince from './pages/Projetos/Programas/dragon-prince-wiki';
 import BPSOIS from './pages/Projetos/Programas/bpsois-tool';
+import OSApp from './pages/Projetos/Programas/mobile-work-order-management-app';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/Projetos/Programas/simple-login" element={<SimpleLogin />} />
           <Route path="/Projetos/Programas/dragon-prince-wiki" element={<DragonPrince />} />
           <Route path="/Projetos/Programas/bpsois-tool" element={<BPSOIS />} />
+          <Route path="/Projetos/Programas/mobile-work-order-management-app" element={<OSApp />} />
           <Route path="/Experiencias/Experiencias" element={<Experiencias />} />
         </Routes>
       </Router>

@@ -5,7 +5,23 @@ import './Projetos.css';
 
 const projects = [
     {
-      id: 1,
+      id: 7,
+      name: { 
+        pt: "Aplicativo Móvel de Gestão de Ordens de Serviço (OS)", 
+        en: "Mobile Work Order Management App" 
+      },
+      description: { 
+        pt: "Aplicativo desenvolvido com Ionic para gerenciar Ordens de Serviço em campo, permitindo check-in/check-out, acompanhamento gerencial e integração com sistema web.", 
+        en: "App developed with Ionic to manage Work Orders in the field, enabling check-in/check-out, managerial tracking, and integration with a web system." 
+      },
+      technologies: { 
+        pt: ["Ionic Framework", "TypeScript", "MySQL", "Desenvolvimento de API", "Modelagem de Software"], 
+        en: ["Ionic Framework", "TypeScript", "MySQL", "API Development", "Software Modeling"] 
+      },
+      image: "/OSApp/OSApp3.jpeg",
+    },
+    {
+      id: 6,
       name: { pt: "Ferramenta BPSOIS", en: "BPSOIS Tool" },
       description: { 
         pt: "O projeto integra a análise de modelos UML (Unified Modeling Language), o desenvolvimento de modelos preditivos para saúde e a otimização de processos organizacionais por meio do Método GQM e da Mineração de Texto.", 
@@ -15,7 +31,7 @@ const projects = [
       image: "/BPSOIS/2.png",    
     },
     {
-      id: 2,
+      id: 5,
       name: { pt: "Príncipe Dragão Wiki", en: "Dragon Prince Wiki" },
       description: { 
         pt: "Desenvolvi este projeto com o objetivo de aprender uma nova tecnologia: Ionic Angular. Embora não seja um projeto muito complexo, ele me proporcionou um aprendizado significativo sobre a tecnologia e suas possíveis aplicações em projetos de maior escala.", 
@@ -25,7 +41,7 @@ const projects = [
       image: "/DragonPrince/DragonPrince1.jpg",    
     },
     {
-      id: 3,
+      id: 4,
       name: { pt: "Green Magic - Sistema", en: "Green Magic - System" },
       description: { 
         pt: "Para aprendizado, desenvolvi um sistema para uma loja ficticia, esse sistema permite o cadastro de clientes, produtos e vendas, além de trazer um pequeno dashboard no começo.", 
@@ -35,7 +51,7 @@ const projects = [
       image: "/Green Magic.jpg",    
     },
     {
-      id: 4,
+      id: 3,
       name: { pt: "Cadastro com API", en: "API Registration" },
       description: { 
         pt: "Desenvolvi uma API capaz de fazer os métodos de PUT, POST, GET e DELETE em uma base de dados de clientes. Também desenvolvi o front para tornar a aplicação funcional sem precisar utilizar apenas o Postman.", 
@@ -45,7 +61,7 @@ const projects = [
       image: "/ApiRegistration/api.jpg",      
     },
     {
-      id: 5,
+      id: 2,
       name: { pt: "Login Simples", en: "Simple Login" },
       description: { 
         pt: "Desenvolvi um sistema básico de cadastro e login em PHP para aprimorar minhas habilidades. O projeto inclui funcionalidades de criação, edição, exclusão e busca de usuários.", 
@@ -55,7 +71,7 @@ const projects = [
       image: "/SimpleLogin/login.jpg",    
     },
     {
-      id: 6,
+      id: 1,
       name: { pt: "NCU Site", en: "NCU Site" },
       description: { 
         pt: "O site da Nerd Cinematic Universe foi um projeto feito totalmente por mim com o intuito de divulgar os conteúdos da loja, além de melhorar minhas habilidades no desenvolvimento de projetos.", 
