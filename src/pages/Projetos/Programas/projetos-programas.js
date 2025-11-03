@@ -52,6 +52,16 @@ const projects = [
     },
     {
       id: 3,
+      name: { pt: "NCU Site", en: "NCU Site" },
+      description: { 
+        pt: "O site da Nerd Cinematic Universe foi um projeto feito totalmente por mim com o intuito de divulgar os conteúdos da loja, além de melhorar minhas habilidades no desenvolvimento de projetos.", 
+        en: "The Nerd Cinematic Universe website was a project entirely developed by me with the goal of promoting the store's content, as well as improving my skills in project development."
+      },
+      technologies: { pt: ["WordPress", "Desenvolvimento Web"], en: ["WordPress", "Web Development"] },
+      image: "/NCU.jpg",
+    },
+    {
+      id: 2,
       name: { pt: "Cadastro com API", en: "API Registration" },
       description: { 
         pt: "Desenvolvi uma API capaz de fazer os métodos de PUT, POST, GET e DELETE em uma base de dados de clientes. Também desenvolvi o front para tornar a aplicação funcional sem precisar utilizar apenas o Postman.", 
@@ -61,7 +71,7 @@ const projects = [
       image: "/ApiRegistration/api.jpg",      
     },
     {
-      id: 2,
+      id: 1,
       name: { pt: "Login Simples", en: "Simple Login" },
       description: { 
         pt: "Desenvolvi um sistema básico de cadastro e login em PHP para aprimorar minhas habilidades. O projeto inclui funcionalidades de criação, edição, exclusão e busca de usuários.", 
@@ -69,16 +79,6 @@ const projects = [
       },
       technologies: { pt: ["MySQL", "PHP", "HTML", "Desenvolvimento WEB"], en: ["MySQL", "PHP", "HTML", "Web Development"] },
       image: "/SimpleLogin/login.jpg",    
-    },
-    {
-      id: 1,
-      name: { pt: "NCU Site", en: "NCU Site" },
-      description: { 
-        pt: "O site da Nerd Cinematic Universe foi um projeto feito totalmente por mim com o intuito de divulgar os conteúdos da loja, além de melhorar minhas habilidades no desenvolvimento de projetos.", 
-        en: "The Nerd Cinematic Universe website was a project entirely developed by me with the goal of promoting the store's content, as well as improving my skills in project development."
-      },
-      technologies: { pt: ["WordPress", "Desenvolvimento Web"], en: ["WordPress", "Web Development"] },
-      image: "/NCU.jpg",
     },
   ];
   

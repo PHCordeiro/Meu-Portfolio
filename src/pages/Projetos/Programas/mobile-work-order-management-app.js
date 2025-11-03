@@ -139,6 +139,7 @@ function OSApp() {
     ];
 
     const [selectedImage, setSelectedImage] = useState(null);
+    const [currentIndex, setCurrentIndex] = useState(0);
 
     const openModal = (image) => {
         setSelectedImage(image);
@@ -174,8 +175,8 @@ function OSApp() {
                     <h2>{language === "pt" ? "Descrição do Projeto" : "Project Description"}</h2>
                     <p>
                         {language === "pt"
-                            ? "Aplicativo desenvolvido com Ionic para gerenciar Ordens de Serviço em campo, permitindo check-in/check-out, acompanhamento gerencial e integração com sistema web."
-                            : "App developed with Ionic to manage Work Orders in the field, enabling check-in/check-out, managerial tracking, and integration with a web system."
+                            ? "Atuei no desenvolvimento do aplicativo de um renomado laboratório da minha região. Fui responsável, principalmente, pela implementação da funcionalidade de pré-agendamento de consultas pelos clientes, além de desenvolver o sistema de notificações dentro do aplicativo para os usuários."
+                            : "I worked on the development of the app for a renowned laboratory in my region. I was mainly responsible for implementing the appointment pre-scheduling feature for clients, as well as developing the in-app notification system for users."
                         }
                     </p>
                 </section>
@@ -193,16 +194,38 @@ function OSApp() {
 
                 <section className="project-images">
                     <h2>{language === "pt" ? "Imagens do Projeto" : "Project Images"}</h2>
-                    <div className="image-grid-mobile">
-                        {images.map((image, index) => (
-                            <div
-                                key={index}
-                                className="image-container"
-                                onClick={() => openModal(image)}
-                            >
-                                <img src={image.src} alt={image.alt[language]} />
-                            </div>
-                        ))}
+                    <div className="carousel-container">
+                        <button
+                            className="carousel-arrow left"
+                            onClick={() =>
+                                setCurrentIndex((prev) => (prev === 0 ? images.length - 3 : prev - 1))
+                            }
+                        >
+                            &#8249;
+                        </button>
+
+                        <div className="carousel">
+                            {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
+                                <div
+                                    key={index}
+                                    className="image-container"
+                                    onClick={() => openModal(image)}
+                                >
+                                    <img src={image.src} alt={image.alt[language]} />
+                                </div>
+                            ))}
+                        </div>
+
+                        <button
+                            className="carousel-arrow right"
+                            onClick={() =>
+                                setCurrentIndex((prev) =>
+                                    prev >= images.length - 3 ? 0 : prev + 1
+                                )
+                            }
+                        >
+                            &#8250;
+                        </button>
                     </div>
                 </section>
 

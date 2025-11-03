@@ -219,3 +219,66 @@ main {
   border-radius: 12px;
   object-fit: contain;
 }
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+}
+
+.image-container {
+    flex: 0 0 calc(33.33% - 10px);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+}
+
+.carousel-arrow {
+    background-color: rgba(30, 0, 50, 0.6);
+    color: #c77dff; /* roxo neon */
+    border: 2px solid #c77dff;
+    font-size: 1.8rem;
+    padding: 8px 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(199, 125, 255, 0.3);
+    z-index: 10;
+}
+
+.carousel-arrow:hover {
+    transform: scale(1.1);
+}
+
+.carousel-arrow.left {
+    position: absolute;
+    left: -45px;
+}
+
+.carousel-arrow.right {
+    position: absolute;
+    right: -45px;
+}

@@ -132,6 +132,7 @@ function BPSOIS() {
     ];    
 
     const [selectedImage, setSelectedImage] = useState(null);
+    const [currentIndex, setCurrentIndex] = useState(0);
 
     const openModal = (image) => {
         setSelectedImage(image);
@@ -200,16 +201,38 @@ function BPSOIS() {
 
                 <section className="project-images">
                     <h2>{language === "pt" ? "Imagens do Projeto" : "Project Images"}</h2>
-                    <div className="image-grid">
-                        {images.map((image, index) => (
-                            <div
-                                key={index}
-                                className="image-container"
-                                onClick={() => openModal(image)}
-                            >
-                                <img src={image.src} alt={image.alt[language]} />
-                            </div>
-                        ))}
+                    <div className="carousel-container">
+                        <button
+                            className="carousel-arrow left"
+                            onClick={() =>
+                                setCurrentIndex((prev) => (prev === 0 ? images.length - 3 : prev - 1))
+                            }
+                        >
+                            &#8249;
+                        </button>
+
+                        <div className="carousel">
+                            {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
+                                <div
+                                    key={index}
+                                    className="image-container"
+                                    onClick={() => openModal(image)}
+                                >
+                                    <img src={image.src} alt={image.alt[language]} />
+                                </div>
+                            ))}
+                        </div>
+
+                        <button
+                            className="carousel-arrow right"
+                            onClick={() =>
+                                setCurrentIndex((prev) =>
+                                    prev >= images.length - 3 ? 0 : prev + 1
+                                )
+                            }
+                        >
+                            &#8250;
+                        </button>
                     </div>
                 </section>
 
