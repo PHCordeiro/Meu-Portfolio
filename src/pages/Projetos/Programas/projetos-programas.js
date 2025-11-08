@@ -5,7 +5,7 @@ import './Projetos.css';
 
 const projects = [
     {
-      id: 7,
+      id: 8,
       name: { 
         pt: "Aplicativo Móvel de Gestão de Ordens de Serviço (OS)", 
         en: "Mobile Work Order Management App" 
@@ -19,6 +19,22 @@ const projects = [
         en: ["Ionic Framework", "TypeScript", "MySQL", "API Development", "Software Modeling"] 
       },
       image: "/OSApp/OSApp3.jpeg",
+    },
+    {
+      id: 7,
+      name: { 
+        pt: "Aplicativo para Laboratório", 
+        en: "Laboratory App" 
+      },
+      description: { 
+        pt: "Atuei no desenvolvimento do aplicativo de um renomado laboratório da minha região. Fui responsável, principalmente, pela implementação da funcionalidade de pré-agendamento de consultas pelos clientes, além de desenvolver o sistema de notificações dentro do aplicativo para os usuários.", 
+        en: "I worked on the development of an app for a renowned laboratory in my region. I was mainly responsible for implementing the appointment pre-scheduling feature for clients, as well as developing the in-app notification system for users." 
+      },
+      technologies: { 
+        pt: ["Ionic Framework", "TypeScript", "MySQL", "Desenvolvimento de API", "Modelagem de Software"], 
+        en: ["Ionic Framework", "TypeScript", "MySQL", "API Development", "Software Modeling"] 
+      },
+      image: "/LaboratoryApp/Lab6.jpg",
     },
     {
       id: 6,
@@ -60,7 +76,7 @@ const projects = [
       technologies: { pt: ["WordPress", "Desenvolvimento Web"], en: ["WordPress", "Web Development"] },
       image: "/NCU.jpg",
     },
-    {
+    /*{
       id: 2,
       name: { pt: "Cadastro com API", en: "API Registration" },
       description: { 
@@ -79,7 +95,7 @@ const projects = [
       },
       technologies: { pt: ["MySQL", "PHP", "HTML", "Desenvolvimento WEB"], en: ["MySQL", "PHP", "HTML", "Web Development"] },
       image: "/SimpleLogin/login.jpg",    
-    },
+    },*/
   ];
   
   function ProjetosProgramas() {

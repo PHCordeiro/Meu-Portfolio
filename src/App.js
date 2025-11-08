@@ -11,6 +11,7 @@ import TapGojo from './pages/Projetos/Jogos/tap-gojo';
 import Politics from './pages/Projetos/Jogos/politics---stop-the-assembleia';
 import Passaros from './pages/Projetos/Jogos/bird-game';
 import Nishimiya from './pages/Projetos/Jogos/flappy-nishimiya';
+import AmebsBar from './pages/Projetos/Jogos/amebs-bar';
 import ProjetosJogos from './pages/Projetos/Jogos/projetos-jogos';
 import ProjetosProgramas from './pages/Projetos/Programas/projetos-programas';
 import NCUSite from './pages/Projetos/Programas/ncu-site';
@@ -21,6 +22,7 @@ import Experiencias from './pages/Experiencias/Experiencias';
 import DragonPrince from './pages/Projetos/Programas/dragon-prince-wiki';
 import BPSOIS from './pages/Projetos/Programas/bpsois-tool';
 import OSApp from './pages/Projetos/Programas/mobile-work-order-management-app';
+import LaboratoryApp from './pages/Projetos/Programas/laboratory-app';
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
           <Route path="/Projetos/Jogos/politics---stop-the-assembleia" element={<Politics />} />
           <Route path="/Projetos/Jogos/bird-game" element={<Passaros />} />
           <Route path="/Projetos/Jogos/flappy-nishimiya" element={<Nishimiya />} />
+          <Route path="/Projetos/Jogos/amebs-bar" element={<AmebsBar />} />
           <Route path="/projetos-programas" element={<ProjetosProgramas />} />
           <Route path="/Projetos/Programas/ncu-site" element={<NCUSite />} />
           <Route path="/Projetos/Programas/green-magic---system" element={<GreenMagic />} />
@@ -46,6 +49,7 @@ function App() {
           <Route path="/Projetos/Programas/dragon-prince-wiki" element={<DragonPrince />} />
           <Route path="/Projetos/Programas/bpsois-tool" element={<BPSOIS />} />
           <Route path="/Projetos/Programas/mobile-work-order-management-app" element={<OSApp />} />
+          <Route path="/Projetos/Programas/laboratory-app" element={<LaboratoryApp />} />
           <Route path="/Experiencias/Experiencias" element={<Experiencias />} />
         </Routes>
       </Router>

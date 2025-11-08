@@ -5,7 +5,7 @@ import './Projetos.css';
 
 const projects = [
     {
-      id: 1,
+      id: 9,
       name: { pt: "Cats Cafeteria", en: "Cats Cafeteria" },
       description: {
         pt: "Meu primeiro jogo lançado na Steam é um visual novel que aborda questões complexas da vida, integrando mistérios e dramas. O jogo também se destaca por sua charmosa arte em pixel, criando uma experiência visual encantadora.",
@@ -15,7 +15,17 @@ const projects = [
       image: "/Cats/Cats.png",
     },
     {
-      id: 2,
+      id: 8,
+      name: { pt: "Amebs Bar", en: "Amebs Bar" },
+      description: {
+        pt: "Ameb's Bar é um divertido jogo cooperativo onde você e um amigo assumem o papel de atendentes em um restaurante agitado! Trabalhem juntos para acomodar clientes, anotar pedidos, preparar ingredientes e servir pratos deliciosos antes que o tempo acabe.",
+        en: "Ameb’s Bar is a fun co-op game where you and a friend take on the roles of waiters in a busy restaurant! Work together to seat customers, take orders, prepare ingredients, and serve delicious dishes before time runs out."
+      },
+      technologies: { pt: ["GameMaker", "Desenvolvimento de jogos", "Pixel Art"], en: ["GameMaker", "Game Development", "Pixel Art"] },
+      image: "/Amebs/Amebs1.jpg",
+    },
+    {
+      id: 7,
       name: { pt: "Mud Man", en: "Mud Man" },
       description: { 
         pt: "Minha primeira GameJam, com o tema 'Mistura de Gêneros', gerou esse jogo, que combina elementos de terror, plataforma e puzzle, transformando-se em um shooter no final. O jogo ficou na 45ª posição entre 74 participantes.", 
@@ -25,17 +35,17 @@ const projects = [
       image: "/Mud.jpg",    
     },
     {
-      id: 3,
+      id: 6,
       name: { pt: "Politics - Stop the Assembleia", en: "Politics - Stop the Assembleia" },
       description: { 
-        pt: "No Politics, o jogador se vê em um mundo injusto com um governo corrupto que visa arrecadar o máximo possível de dinheiro  da forma que for preciso. Com isso, afim de acabar com toda essa situação, o jogador precisa invadir o Congresso e derrotar todos os políticos que lá estão. Está pronto para quebrar literalmente todas as regras do seu país??!", 
-        en: ""
+        pt: "No Politics, o jogador se vê em um mundo injusto com um governo corrupto que visa arrecadar o máximo possível de dinheiro  da forma que for preciso. O jogador precisa invadir o Congresso e derrotar todos os políticos que lá estão.", 
+        en: "In No Politics, the player finds themselves in an unjust world ruled by a corrupt government that seeks to collect as much money as possible by any means necessary. The player must invade Congress and defeat all the politicians inside."
       },
       technologies: { pt: ["GameMaker", "Desenvolvimento de jogos", "GameJam"], en: ["GameMaker", "Game Development", "GameJam"] },
       image: "/Politics/Politics1.png",    
     },
     {
-      id: 4,
+      id: 5,
       name: { pt: "Tap Gojo", en: "Tap Gojo" },
       description: { 
         pt: "Este jogo é inspirado no anime 'Jujutsu Kaisen', criado pelo sensei Gege Akutami. É o meu anime favorito, então decidi desenvolver um jogo baseado nele.", 
@@ -45,7 +55,7 @@ const projects = [
       image: "/TapGojo/TapGojo1.png",    
     },
     {
-      id: 5,
+      id: 4,
       name: { pt: "Jogo dos Pássaros", en: "Bird Game" },
       description: { 
         pt: "O Jogo dos Pássaros foi feito para testar as minhas habilidades e gerar mais conhecimento sobre a criação de jogos. Sou muito grato com o NoNe por ter me ensinado tanto e espero que vocês se divirtam!", 
@@ -55,17 +65,17 @@ const projects = [
       image: "/Passaros/Passaros1.png",    
     },
     {
-      id: 6,
+      id: 3,
       name: { pt: "Flappy Nishimiya", en: "Flappy Nishimiya" },
       description: { 
-        pt: "Bem, como sou um grande fã de Jujutsu Kaisen, pensei em fazer um jogo sobre o anime, mas não sabia em que personagem ou aspecto me concentrar... Foi então que, ao olhar uma lista de personagens do anime, vi a Nishimiya e me lembrei de que ela voa em sua vassoura! Sabendo que muitas pessoas gostam da personagem, mas que ela não teve muito desenvolvimento, decidi criar um jogo pequeno e bem simples sobre ela.", 
-        en: "Well, as I'm a huge fan of Jujutsu Kaisen, I thought about making a game about the anime, but I didn't know what to focus on... That's when, looking at a list of characters from the anime, I saw Nishimiya and remembered that she flies on her broomstick!! Knowing that many people like the character, but she didn't have much development, I decided to make a small, very simple game about her."
+        pt: "Como fã de Jujutsu Kaisen, decidi criar um pequeno jogo inspirado na personagem Nishimiya e em sua habilidade de voar na vassoura.", 
+        en: "As a Jujutsu Kaisen fan, I decided to create a small game inspired by the character Nishimiya and her broom-flying ability."
       },
       technologies: { pt: ["GameMaker", "Desenvolvimento de jogos"], en: ["GameMaker", "Game Development"] },
       image: "/Nishimiya/Nishimiya1.png",    
     },
     {
-      id: 7,
+      id: 2,
       name: { pt: "Todou VS Mei Mei", en: "Todou VS Mei Mei" },
       description: { 
         pt: "Um jogo inspirado na partida de Pong entre Todou e Mei Mei, apresentada em um episódio do anime Jujutsu Kaisen, foi desenvolvido.",
@@ -75,7 +85,7 @@ const projects = [
       image: "/TodouMeiMei/TodouMeiMei1.png",    
     },
     {
-      id: 8,
+      id: 1,
       name: { pt: "Pong Clone", en: "Pong Clone" },
       description: { 
         pt: "Este é um clone simples do jogo Pong, criado como um projeto de aprendizado no Unity, sendo o meu primeiro jogo feito com essa ferramenta apenas para prática.", 

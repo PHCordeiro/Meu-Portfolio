@@ -175,8 +175,8 @@ function OSApp() {
                     <h2>{language === "pt" ? "Descrição do Projeto" : "Project Description"}</h2>
                     <p>
                         {language === "pt"
-                            ? "Atuei no desenvolvimento do aplicativo de um renomado laboratório da minha região. Fui responsável, principalmente, pela implementação da funcionalidade de pré-agendamento de consultas pelos clientes, além de desenvolver o sistema de notificações dentro do aplicativo para os usuários."
-                            : "I worked on the development of the app for a renowned laboratory in my region. I was mainly responsible for implementing the appointment pre-scheduling feature for clients, as well as developing the in-app notification system for users."
+                            ? "Durante meu período na Data Campos, atuei no desenvolvimento de um aplicativo móvel para gestão de Ordens de Serviço (OS) voltado a uma empresa prestadora de serviços, com o objetivo de otimizar as operações de campo e o acompanhamento das atividades. O app permite que os colaboradores registrem e gerenciem suas OS com check-in e check-out, oferece uma visão gerencial em tempo real para supervisores aprovarem ou rejeitarem serviços concluídos e integra-se a um sistema web que centraliza a atribuição e o controle das ordens."
+                            : "During my time at Data Campos, I contributed to the development of a mobile application for managing Service Orders (SOs) for a local service provider, aimed at optimizing field operations and service monitoring. The app enables employees to record and manage their assigned SOs with check-in and check-out features, provides real-time managerial oversight for supervisors to approve or reject completed services, and integrates with a complementary web system that centralizes the assignment and control of service orders."
                         }
                     </p>
                 </section>
