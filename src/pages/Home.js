@@ -44,7 +44,7 @@ function Home() {
         />
 
         <div className="character-info">
-          <h2>{language === 'pt' ? 'Sobre mim' : 'About me'}</h2>
+          <h2>{language === 'pt' ? 'Informações' : 'Information'}</h2>
           <p>
             <strong>{language === 'pt' ? 'Nome:' : 'Name:'}</strong> Pedro Henrique de Souza Seabra Mattos Cordeiro
           </p>
