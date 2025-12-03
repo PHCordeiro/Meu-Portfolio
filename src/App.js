@@ -12,6 +12,7 @@ import Politics from './pages/Projetos/Jogos/politics---stop-the-assembleia';
 import Passaros from './pages/Projetos/Jogos/bird-game';
 import Nishimiya from './pages/Projetos/Jogos/flappy-nishimiya';
 import AmebsBar from './pages/Projetos/Jogos/amebs-bar';
+import DBZ from './pages/Projetos/Jogos/dbz-space-shooter';
 import ProjetosJogos from './pages/Projetos/Jogos/projetos-jogos';
 import ProjetosProgramas from './pages/Projetos/Programas/projetos-programas';
 import NCUSite from './pages/Projetos/Programas/ncu-site';
@@ -41,6 +42,7 @@ function App() {
           <Route path="/Projetos/Jogos/bird-game" element={<Passaros />} />
           <Route path="/Projetos/Jogos/flappy-nishimiya" element={<Nishimiya />} />
           <Route path="/Projetos/Jogos/amebs-bar" element={<AmebsBar />} />
+          <Route path="/Projetos/Jogos/dbz-space-shooter" element={<DBZ />} />
           <Route path="/projetos-programas" element={<ProjetosProgramas />} />
           <Route path="/Projetos/Programas/ncu-site" element={<NCUSite />} />
           <Route path="/Projetos/Programas/green-magic---system" element={<GreenMagic />} />

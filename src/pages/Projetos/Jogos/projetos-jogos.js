@@ -5,7 +5,7 @@ import './Projetos.css';
 
 const projects = [
     {
-      id: 9,
+      id: 10,
       name: { pt: "Cats Cafeteria", en: "Cats Cafeteria" },
       description: {
         pt: "Meu primeiro jogo lançado na Steam é um visual novel que aborda questões complexas da vida, integrando mistérios e dramas. O jogo também se destaca por sua charmosa arte em pixel, criando uma experiência visual encantadora.",
@@ -15,7 +15,7 @@ const projects = [
       image: "/Cats/Cats.png",
     },
     {
-      id: 8,
+      id: 9,
       name: { pt: "Amebs Bar", en: "Amebs Bar" },
       description: {
         pt: "Ameb's Bar é um divertido jogo cooperativo onde você e um amigo assumem o papel de atendentes em um restaurante agitado! Trabalhem juntos para acomodar clientes, anotar pedidos, preparar ingredientes e servir pratos deliciosos antes que o tempo acabe.",
@@ -25,7 +25,7 @@ const projects = [
       image: "/Amebs/Amebs1.jpg",
     },
     {
-      id: 7,
+      id: 8,
       name: { pt: "Mud Man", en: "Mud Man" },
       description: { 
         pt: "Minha primeira GameJam, com o tema 'Mistura de Gêneros', gerou esse jogo, que combina elementos de terror, plataforma e puzzle, transformando-se em um shooter no final. O jogo ficou na 45ª posição entre 74 participantes.", 
@@ -35,7 +35,7 @@ const projects = [
       image: "/Mud.jpg",    
     },
     {
-      id: 6,
+      id: 7,
       name: { pt: "Politics - Stop the Assembleia", en: "Politics - Stop the Assembleia" },
       description: { 
         pt: "No Politics, o jogador se vê em um mundo injusto com um governo corrupto que visa arrecadar o máximo possível de dinheiro  da forma que for preciso. O jogador precisa invadir o Congresso e derrotar todos os políticos que lá estão.", 
@@ -45,7 +45,7 @@ const projects = [
       image: "/Politics/Politics1.png",    
     },
     {
-      id: 5,
+      id: 6,
       name: { pt: "Tap Gojo", en: "Tap Gojo" },
       description: { 
         pt: "Este jogo é inspirado no anime 'Jujutsu Kaisen', criado pelo sensei Gege Akutami. É o meu anime favorito, então decidi desenvolver um jogo baseado nele.", 
@@ -53,6 +53,16 @@ const projects = [
       },
       technologies: { pt: ["GameMaker", "Desenvolvimento de jogos", "Pixel Art"], en: ["GameMaker", "Game Development", "Pixel Art"] },
       image: "/TapGojo/TapGojo1.png",    
+    },
+    {
+      id: 5,
+      name: { pt: "DBZ Space Shooter", en: "DBZ Space Shooter" },
+      description: { 
+        pt: "Dragon Ball Space Shooter é um jogo inspirado no universo de Dragon Ball, desenvolvido com o objetivo de aprimorar as habilidades do criador na construção de um jogo do gênero shooter.", 
+        en: "Dragon Ball Space Shooter is a game inspired by the Dragon Ball universe, developed with the goal of enhancing the creator's skills in building a shooter-style game."
+      },
+      technologies: { pt: ["GameMaker", "Desenvolvimento de jogos"], en: ["GameMaker", "Game Development"] },
+      image: "/DBZ/dbz1.png",    
     },
     {
       id: 4,
