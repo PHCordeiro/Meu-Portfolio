@@ -24,6 +24,7 @@ import DragonPrince from './pages/Projetos/Programas/dragon-prince-wiki';
 import BPSOIS from './pages/Projetos/Programas/bpsois-tool';
 import OSApp from './pages/Projetos/Programas/mobile-work-order-management-app';
 import LaboratoryApp from './pages/Projetos/Programas/laboratory-app';
+import HeroDex from './pages/Projetos/Programas/HeroDex';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           <Route path="/Projetos/Programas/bpsois-tool" element={<BPSOIS />} />
           <Route path="/Projetos/Programas/mobile-work-order-management-app" element={<OSApp />} />
           <Route path="/Projetos/Programas/laboratory-app" element={<LaboratoryApp />} />
+          <Route path="/Projetos/Programas/HeroDex" element={<HeroDex />} />
           <Route path="/Experiencias/Experiencias" element={<Experiencias />} />
         </Routes>
       </Router>

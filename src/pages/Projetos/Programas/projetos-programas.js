@@ -5,6 +5,22 @@ import './Projetos.css';
 
 const projects = [
     {
+      id: 9,
+      name: { 
+        pt: "HeroDex", 
+        en: "HeroDex" 
+      },
+      description: { 
+        pt: "HeroDex é um projeto desenvolvido com o objetivo de explorar o consumo de uma API pública em um sistema simples e funcional. A aplicação consiste em um site com uma interface de busca intuitiva, capaz de retornar informações detalhadas sobre heróis disponíveis na SuperHero API, mantida no repositório akabab e distribuída via jsDelivr.", 
+        en: "HeroDex is a project developed with the goal of exploring the consumption of a public API in a simple and functional system. The application consists of a website with an intuitive search interface, capable of returning detailed information about heroes available in the SuperHero API, maintained in the akabab repository and distributed via jsDelivr." 
+      },
+      technologies: { 
+        pt: ["API Consumption", "TypeScript", "React", "Interface Limpa"], 
+        en: ["API Consumption", "TypeScript", "React", "Clean Interface"] 
+      },
+      image: "/HeroDex/HeroDex2.png",
+    },
+    {
       id: 8,
       name: { 
         pt: "Aplicativo Móvel de Gestão de Ordens de Serviço (OS)", 
